@@ -1,0 +1,4005 @@
+{
+  "dataset_name": "FlexArith-100",
+  "problems": [
+    {
+      "id": "P001",
+      "field": "Acoustics Engineering",
+      "difficulty": "easy",
+      "problem_text": "An acoustic test chamber has <A> sound absorbing panels on the walls and <B> panels on the ceiling. What is the total number of sound absorbing panels?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 45,
+        "B": 20
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 65.0
+    },
+    {
+      "id": "P002",
+      "field": "Aerospace Dynamics",
+      "difficulty": "easy",
+      "problem_text": "A drone burns <A> grams of solid propellant per second. How many grams does it burn in <B> seconds?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5,
+            50
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 12,
+        "B": 30
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 360.0
+    },
+    {
+      "id": "P003",
+      "field": "Agricultural Economics",
+      "difficulty": "easy",
+      "problem_text": "A cooperative harvests <A> tons of wheat and sells it equally to <B> distributors. How many tons does each distributor receive?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            20
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2400,
+        "B": 8
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A / B), 4)\nprint(result)",
+      "ground_truth": 300.0
+    },
+    {
+      "id": "P004",
+      "field": "Agronomy",
+      "difficulty": "easy",
+      "problem_text": "A soil sample initially contains <A> ppm of nitrogen. After a rainfall, <B> ppm is washed away. How much nitrogen remains?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            90
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 150,
+        "B": 45
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+      "ground_truth": 105.0
+    },
+    {
+      "id": "P005",
+      "field": "Algorithmic Trading",
+      "difficulty": "easy",
+      "problem_text": "An algorithm executes <A> trades per hour for <B> hours. How many total trades does the algorithm execute?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            10000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1,
+            24
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 5000,
+        "B": 6
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 30000.0
+    },
+    {
+      "id": "P006",
+      "field": "Analytical Chemistry",
+      "difficulty": "easy",
+      "problem_text": "A titration requires <A> mL of a base to neutralize an acid. An additional <B> mL is added by mistake. What is the total volume added?",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 25.5,
+        "B": 1.2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 26.7
+    },
+    {
+      "id": "P007",
+      "field": "Animal Husbandry",
+      "difficulty": "easy",
+      "problem_text": "A farm has <A> sheep and <B> goats. What is the total number of livestock?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            50,
+            500
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 120,
+        "B": 85
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 205.0
+    },
+    {
+      "id": "P008",
+      "field": "Applied Mathematics",
+      "difficulty": "easy",
+      "problem_text": "A linear transformation scales a vector of magnitude <A> by a factor of <B>. What is the new magnitude?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 15,
+        "B": 3
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 45.0
+    },
+    {
+      "id": "P009",
+      "field": "Aquaculture",
+      "difficulty": "easy",
+      "problem_text": "A tank holds <A> gallons of water. It is drained at a rate of <B> gallons per minute. How many minutes does it take to empty the tank completely?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            50
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1000,
+        "B": 20
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A / B), 4)\nprint(result)",
+      "ground_truth": 50.0
+    },
+    {
+      "id": "P010",
+      "field": "Astrobiology",
+      "difficulty": "easy",
+      "problem_text": "A space probe takes <A> days to reach a moon and spends <B> days surveying the surface. What is the total mission duration in days?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 250,
+        "B": 15
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 265.0
+    },
+    {
+      "id": "P011",
+      "field": "Astrophysics",
+      "difficulty": "easy",
+      "problem_text": "A star emits <A> units of radiation. A dust cloud blocks <B> units of this radiation before it reaches an observer. How many units reach the observer?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            900
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 4500,
+        "B": 1200
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+      "ground_truth": 3300.0
+    },
+    {
+      "id": "P012",
+      "field": "Atmospheric Science",
+      "difficulty": "easy",
+      "problem_text": "A weather balloon rises at a rate of <A> meters per minute for <B> minutes. What altitude does it reach in meters?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            300
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            60
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 150,
+        "B": 20
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 3000.0
+    },
+    {
+      "id": "P013",
+      "field": "Audiology",
+      "difficulty": "easy",
+      "problem_text": "A patient's hearing threshold decreases by <A> decibels in the left ear and <B> decibels in the right ear over five years. What is the total decrease in decibels across both ears?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5,
+            30
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            30
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 15,
+        "B": 12
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 27.0
+    },
+    {
+      "id": "P014",
+      "field": "Behavioral Psychology",
+      "difficulty": "easy",
+      "problem_text": "An experiment records <A> successful trials and <B> failed trials. What is the total number of trials conducted?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 60,
+        "B": 25
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 85.0
+    },
+    {
+      "id": "P015",
+      "field": "Biochemistry",
+      "difficulty": "easy",
+      "problem_text": "An enzyme catalyzes <A> reactions per second. How many reactions are catalyzed in <B> seconds?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 15000,
+        "B": 4
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 60000.0
+    },
+    {
+      "id": "P016",
+      "field": "Biogeography",
+      "difficulty": "easy",
+      "problem_text": "An island has a total area of <A> square kilometers, and <B> square kilometers are covered by dense forest. How much area is not covered by dense forest?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            500,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            499
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1200,
+        "B": 350
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+      "ground_truth": 850.0
+    },
+    {
+      "id": "P017",
+      "field": "Bioinformatics",
+      "difficulty": "easy",
+      "problem_text": "A DNA sequence is <A> base pairs long. A specific alignment tool processes it in chunks of <B> base pairs. How many chunks are produced?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20000,
+        "B": 500
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A / B), 4)\nprint(result)",
+      "ground_truth": 40.0
+    },
+    {
+      "id": "P018",
+      "field": "Biophysics",
+      "difficulty": "easy",
+      "problem_text": "A motor protein takes steps that are <A> nanometers each. If it takes <B> steps, what is the total distance traveled in nanometers?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5,
+            15
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 8,
+        "B": 50
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 400.0
+    },
+    {
+      "id": "P019",
+      "field": "Botany",
+      "difficulty": "easy",
+      "problem_text": "A greenhouse houses <A> orchid plants. If each plant produces <B> flowers, what is the total number of flowers?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            20,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 45,
+        "B": 4
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 180.0
+    },
+    {
+      "id": "P020",
+      "field": "Business Administration",
+      "difficulty": "easy",
+      "problem_text": "A company budget allocates <A> dollars for operations and <B> dollars for marketing. What is the total budget for these two areas?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 25000,
+        "B": 8000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 33000.0
+    },
+    {
+      "id": "P021",
+      "field": "Cellular Biology",
+      "difficulty": "easy",
+      "problem_text": "A cell contains <A> mitochondria. After a period of growth, it synthesizes an additional <B> mitochondria. How many are there in total?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            50,
+            500
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 300,
+        "B": 150
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 450.0
+    },
+    {
+      "id": "P022",
+      "field": "Chemical Engineering",
+      "difficulty": "easy",
+      "problem_text": "A reactor processes <A> liters of raw material per hour. How many hours will it take to process <B> liters?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200,
+        "B": 1600
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(B / A), 4)\nprint(result)",
+      "ground_truth": 8.0
+    },
+    {
+      "id": "P023",
+      "field": "Civil Defense",
+      "difficulty": "easy",
+      "problem_text": "A shelter can hold <A> people. During an emergency, <B> people seek refuge there. How many vacant spots remain?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            499
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1000,
+        "B": 450
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+      "ground_truth": 550.0
+    },
+    {
+      "id": "P024",
+      "field": "Climatology",
+      "difficulty": "easy",
+      "problem_text": "The annual average temperature increased by <A> degrees over the first decade and <B> degrees over the second decade. What is the total temperature increase?",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            0.1,
+            1.5
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            1.5
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 0.4,
+        "B": 0.7
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+      "ground_truth": 1.1
+    },
+    {
+      "id": "P025",
+      "field": "Clinical Psychology",
+      "difficulty": "easy",
+      "problem_text": "A therapy clinic conducts <A> sessions per day. Each session lasts <B> minutes. What is the total number of minutes spent in sessions daily?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            30,
+            90
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20,
+        "B": 45
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+      "ground_truth": 900.0
+    },
+    {
+      "id": "P026",
+      "field": "Cognitive Neuroscience",
+      "difficulty": "medium",
+      "problem_text": "An EEG records <C> brainwaves per second. The recording lasts for <A> minutes. If each minute has <B> seconds, how many total brainwaves are recorded?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5,
+            30
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            60,
+            60
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10,
+        "B": 60,
+        "C": 40
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B * C), 4)\nprint(result)",
+      "ground_truth": 24000.0
+    },
+    {
+      "id": "P027",
+      "field": "Comparative Literature",
+      "difficulty": "medium",
+      "problem_text": "A scholar compares <A> classic novels. Each novel contains an average of <B> chapters, and each chapter averages <C> pages. How many total pages are analyzed?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            30
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 5,
+        "B": 20,
+        "C": 15
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B * C), 4)\nprint(result)",
+      "ground_truth": 1500.0
+    },
+    {
+      "id": "P028",
+      "field": "Computational Biology",
+      "difficulty": "medium",
+      "problem_text": "A sequence assembly algorithm matches <A> reads to a reference genome. Out of these, a fraction <B> are perfect matches. The remaining non-perfect reads are analyzed in <C> batches. How many non-perfect reads per batch?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.5,
+            0.9
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20000,
+        "B": 0.8,
+        "C": 4
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A * (1 - B)) / C), 4)\nprint(result)",
+      "ground_truth": 1000.0
+    },
+    {
+      "id": "P029",
+      "field": "Computational Linguistics",
+      "difficulty": "medium",
+      "problem_text": "A corpus contains <A> documents. An algorithm processes <B> documents per hour. Due to overhead, each processed document requires an extra <C> seconds of post-processing. Total post-processing time in seconds for the entire corpus?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1,
+            5
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 500,
+        "B": 25,
+        "C": 2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * C), 4)\nprint(result)",
+      "ground_truth": 1000.0
+    },
+    {
+      "id": "P030",
+      "field": "Computer Graphics",
+      "difficulty": "medium",
+      "problem_text": "A 3D scene renders <A> frames. Each frame has a resolution of <B> by <C> pixels. What is the total number of pixels rendered across all frames?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            60,
+            300
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            800,
+            1920
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            600,
+            1080
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 1920,
+        "C": 1080
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B * C), 4)\nprint(result)",
+      "ground_truth": 207360000.0
+    },
+    {
+      "id": "P031",
+      "field": "Computer Vision",
+      "difficulty": "medium",
+      "problem_text": "A convolutional filter of size <A> by <A> is applied to an image. It performs <B> operations per application. If it is applied to <C> different locations, what is the total number of operations?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            3,
+            11
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            9,
+            121
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1000,
+            10000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 3,
+        "B": 18,
+        "C": 5000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(B * C), 4)\nprint(result)",
+      "ground_truth": 90000.0
+    },
+    {
+      "id": "P032",
+      "field": "Conservation Biology",
+      "difficulty": "medium",
+      "problem_text": "A nature reserve spans <A> hectares. It is divided equally into <B> zones. One zone receives <C> new planted trees per hectare. How many trees are planted in that zone?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 4,
+        "C": 25
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A / B) * C), 4)\nprint(result)",
+      "ground_truth": 12500.0
+    },
+    {
+      "id": "P033",
+      "field": "Construction Management",
+      "difficulty": "medium",
+      "problem_text": "A building project requires <A> tons of steel, costing <B> dollars per ton. An additional <C> dollars is spent on logistics. What is the total cost?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1000,
+            10000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 800,
+        "C": 5000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B + C), 4)\nprint(result)",
+      "ground_truth": 85000.0
+    },
+    {
+      "id": "P034",
+      "field": "Corporate Law",
+      "difficulty": "medium",
+      "problem_text": "A corporate merger involves <A> contracts, each averaging <B> pages. A legal team of <C> lawyers splits the pages equally. How many pages does each lawyer review?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            20
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 20,
+        "C": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A * B) / C), 4)\nprint(result)",
+      "ground_truth": 400.0
+    },
+    {
+      "id": "P035",
+      "field": "Cosmology",
+      "difficulty": "medium",
+      "problem_text": "A distant galaxy contains <A> stars. A subset of <B> percent of these stars are red dwarfs. The red dwarfs are surveyed using a sample ratio of 1 in <C>. How many red dwarfs are surveyed?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100000000000,
+            2000000000000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            90
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1000000,
+            10000000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1000000000000,
+        "B": 50,
+        "C": 1000000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A * (B / 100)) / C), 4)\nprint(result)",
+      "ground_truth": 500000.0
+    },
+    {
+      "id": "P036",
+      "field": "Criminal Justice",
+      "difficulty": "medium",
+      "problem_text": "A precinct processes <A> cases per month. On average, <B> percent result in convictions. Over <C> months, how many convictions are secured?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            12
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200,
+        "B": 25,
+        "C": 6
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * (B / 100) * C), 4)\nprint(result)",
+      "ground_truth": 300.0
+    },
+    {
+      "id": "P037",
+      "field": "Cryptanalysis",
+      "difficulty": "medium",
+      "problem_text": "A brute-force attack tries <A> keys per second. There are <B> total possible keys. The search space is divided among <C> parallel servers. How many seconds does each server take to check its share?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000000,
+            5000000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            20
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20000,
+        "B": 4000000,
+        "C": 10
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((B / C) / A), 4)\nprint(result)",
+      "ground_truth": 20.0
+    },
+    {
+      "id": "P038",
+      "field": "Cybernetics",
+      "difficulty": "medium",
+      "problem_text": "A cybernetic implant filters <A> signals per minute. It amplifies the signal by <B> percent, and then transmits <C> prioritized packets. What is the sum of amplified signals and prioritized packets in a minute?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            50,
+            500
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 500,
+        "B": 20,
+        "C": 100
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A * (1 + B / 100)) + C), 4)\nprint(result)",
+      "ground_truth": 700.0
+    },
+    {
+      "id": "P039",
+      "field": "Data Engineering",
+      "difficulty": "medium",
+      "problem_text": "A data pipeline extracts <A> records, transforms them by removing <B> invalid records, and loads the remaining records into <C> equal partitions. How many records per partition?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            20
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10500,
+        "B": 500,
+        "C": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A - B) / C), 4)\nprint(result)",
+      "ground_truth": 2000.0
+    },
+    {
+      "id": "P040",
+      "field": "Deep Learning",
+      "difficulty": "medium",
+      "problem_text": "A neural network is trained for <A> epochs. Each epoch processes <B> batches of size <C>. How many total samples are processed during training?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            16,
+            256
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 50,
+        "B": 200,
+        "C": 32
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B * C), 4)\nprint(result)",
+      "ground_truth": 320000.0
+    },
+    {
+      "id": "P041",
+      "field": "Demographics",
+      "difficulty": "medium",
+      "problem_text": "A region has a population of <A> people. The birth rate is <B> per 1000 people and the death rate is <C> per 1000 people. What is the net population change?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            100000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            5,
+            30
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 50000,
+        "B": 20,
+        "C": 10
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * (B - C) / 1000), 4)\nprint(result)",
+      "ground_truth": 500.0
+    },
+    {
+      "id": "P042",
+      "field": "Developmental Biology",
+      "difficulty": "medium",
+      "problem_text": "An embryo divides into <A> cells. A subset of <B> percent differentiates into specialized tissue. Of those, <C> cells undergo apoptosis. How many specialized cells remain?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            10000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 4000,
+        "B": 25,
+        "C": 150
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A * (B / 100)) - C), 4)\nprint(result)",
+      "ground_truth": 850.0
+    },
+    {
+      "id": "P043",
+      "field": "Digital Forensics",
+      "difficulty": "medium",
+      "problem_text": "An investigator extracts <A> logs. <B> logs are deemed irrelevant and discarded. The remaining logs are hashed, taking <C> milliseconds per log. Total hashing time in milliseconds?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10000,
+        "B": 2000,
+        "C": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A - B) * C), 4)\nprint(result)",
+      "ground_truth": 40000.0
+    },
+    {
+      "id": "P044",
+      "field": "Disaster Management",
+      "difficulty": "medium",
+      "problem_text": "A relief agency ships <A> pallets of supplies. Each pallet contains <B> ration packs. The packs are distributed to <C> camps equally. How many ration packs per camp?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 200,
+        "C": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A * B) / C), 4)\nprint(result)",
+      "ground_truth": 4000.0
+    },
+    {
+      "id": "P045",
+      "field": "Distributed Systems",
+      "difficulty": "medium",
+      "problem_text": "A cluster of <A> nodes each processes <B> tasks. A network partition causes <C> nodes to drop all their tasks. What is the total number of successfully completed tasks?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1,
+            5
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20,
+        "B": 1500,
+        "C": 2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A - C) * B), 4)\nprint(result)",
+      "ground_truth": 27000.0
+    },
+    {
+      "id": "P046",
+      "field": "Ecology",
+      "difficulty": "medium",
+      "problem_text": "A forest has <A> species of birds. A conservation effort introduces <B> new species, but climate change causes a loss of <C> species. How many species are present now?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1,
+            15
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 120,
+        "B": 10,
+        "C": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A + B - C), 4)\nprint(result)",
+      "ground_truth": 125.0
+    },
+    {
+      "id": "P047",
+      "field": "Econometrics",
+      "difficulty": "medium",
+      "problem_text": "An economic model predicts a baseline GDP of <A> billion. It adds an investment multiplier of <B> times the government spending of <C> billion. What is the predicted GDP in billions?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.1,
+            2.5
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            50,
+            300
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1000,
+        "B": 1.5,
+        "C": 200
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A + B * C), 4)\nprint(result)",
+      "ground_truth": 1300.0
+    },
+    {
+      "id": "P048",
+      "field": "Educational Psychology",
+      "difficulty": "medium",
+      "problem_text": "A study involves <A> students who take a test with <B> questions. On average, they score <C> percent correctly. What is the average number of correct answers per student?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            20,
+            100
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            50,
+            95
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 50,
+        "C": 80
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(B * (C / 100)), 4)\nprint(result)",
+      "ground_truth": 40.0
+    },
+    {
+      "id": "P049",
+      "field": "Electromagnetics",
+      "difficulty": "medium",
+      "problem_text": "A wire carries a current of <A> amperes. It passes through a magnetic field of <B> teslas over a length of <C> meters. What is the magnetic force (in Newtons) if the angle is 90 degrees?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            2,
+            20
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            2.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 5,
+        "B": 1.2,
+        "C": 2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B * C), 4)\nprint(result)",
+      "ground_truth": 12.0
+    },
+    {
+      "id": "P050",
+      "field": "Emergency Medicine",
+      "difficulty": "medium",
+      "problem_text": "An ER treats <A> patients per shift. Each patient requires an average of <B> vials of saline. The hospital stocks <C> vials. How many vials remain after one shift?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            20,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            5
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 50,
+        "B": 3,
+        "C": 1000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(C - A * B), 4)\nprint(result)",
+      "ground_truth": 850.0
+    },
+    {
+      "id": "P051",
+      "field": "Endocrinology",
+      "difficulty": "hard",
+      "problem_text": "A hormone is secreted at a basal rate of <A> ng/dL per hour. A stimulus increases this rate by a factor of <B> for <C> hours. After the stimulus, the baseline is restored but depleted by <D> ng/dL due to clearance. What is the net hormone concentration added over those <C> hours minus the clearance?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.5,
+            4.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            12
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            5,
+            30
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20,
+        "B": 2.5,
+        "C": 4,
+        "D": 15
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * B * C) - D), 4)\nprint(result)",
+      "ground_truth": 185.0
+    },
+    {
+      "id": "P052",
+      "field": "Environmental Engineering",
+      "difficulty": "hard",
+      "problem_text": "A water treatment plant filters <A> cubic meters of water. Coagulant is added at <B> mg per cubic meter. The process removes <C> percent of impurities. A secondary filter costs <D> dollars per mg of coagulant used. What is the total cost of the secondary filter?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            80,
+            99
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.1,
+            0.5
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 10,
+        "C": 95,
+        "D": 0.2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * B * D), 4)\nprint(result)",
+      "ground_truth": 4000.0
+    },
+    {
+      "id": "P053",
+      "field": "Epidemiology",
+      "difficulty": "hard",
+      "problem_text": "An infectious disease starts with <A> cases. The basic reproduction number is <B>. Over <C> transmission cycles, the cases grow as A * (B^C). Public health interventions reduce the final tally by a flat <D> cases. Find the final case count.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5,
+            50
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.1,
+            3.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            6
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10,
+        "B": 2.0,
+        "C": 4,
+        "D": 20
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) - D), 4)\nprint(result)",
+      "ground_truth": 140.0
+    },
+    {
+      "id": "P054",
+      "field": "Ergonomics",
+      "difficulty": "hard",
+      "problem_text": "An assembly line worker performs <A> repetitions of a task per hour for <B> hours. Each repetition exerts <C> Newtons of force on the wrist. A recovery factor reduces the cumulative strain by dividing the total force by <D>. What is the calculated strain index?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            4,
+            12
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            5,
+            25
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200,
+        "B": 8,
+        "C": 10,
+        "D": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * B * C) / D), 4)\nprint(result)",
+      "ground_truth": 3200.0
+    },
+    {
+      "id": "P055",
+      "field": "Evolutionary Biology",
+      "difficulty": "hard",
+      "problem_text": "A population has a genetic variance of <A>. A selective pressure increases variance by <B> percent, but genetic drift decreases it by a flat <C> units over <D> generations. What is the variance after <D> generations? Formula: (A * (1 + B/100)) - (C * D).",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            50.0,
+            200.0
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            0.5,
+            5.0
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100.0,
+        "B": 10,
+        "C": 1.5,
+        "D": 20
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * (1 + B / 100)) - (C * D)), 4)\nprint(result)",
+      "ground_truth": 80.0
+    },
+    {
+      "id": "P056",
+      "field": "Financial Engineering",
+      "difficulty": "hard",
+      "problem_text": "A derivative is priced using a base asset value of <A> multiplied by a volatility factor <B>. A risk-free rate compounded continuously over <C> years adds an expected return of exp(C * <D>). Find the approximate metric: A * B * (1 + C * D).",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.1,
+            2.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1,
+            5
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.01,
+            0.1
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 1.5,
+        "C": 2,
+        "D": 0.05
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * B * (1 + C * D)), 4)\nprint(result)",
+      "ground_truth": 3300.0
+    },
+    {
+      "id": "P057",
+      "field": "Fluid Dynamics",
+      "difficulty": "hard",
+      "problem_text": "A fluid flows through a pipe of radius <A> meters at a velocity of <B> m/s. The volumetric flow rate (pi * r^2 * v) is multiplied by the fluid density <C> kg/m^3 to find mass flow rate. Substitute pi with <D> for estimation. What is the mass flow rate?",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            0.1,
+            1.0
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            2,
+            15
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            800,
+            1200
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            3.14,
+            3.1416
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 0.5,
+        "B": 4,
+        "C": 1000,
+        "D": 3.14
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(D * (A ** 2) * B * C), 4)\nprint(result)",
+      "ground_truth": 3140.0
+    },
+    {
+      "id": "P058",
+      "field": "Food Science",
+      "difficulty": "hard",
+      "problem_text": "A batch of <A> kg of dough requires a yeast concentration of <B> grams per kg. The fermentation process loses <C> percent of total mass. To package it, the remaining dough is split into portions of <D> kg. How many portions are created?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            5,
+            15
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.5,
+            2.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200,
+        "B": 10,
+        "C": 10,
+        "D": 1.5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * (1 - C / 100)) / D), 4)\nprint(result)",
+      "ground_truth": 120.0
+    },
+    {
+      "id": "P059",
+      "field": "Forensic Accounting",
+      "difficulty": "hard",
+      "problem_text": "An auditor investigates <A> transactions. <B> percent of them are flagged as suspicious. The average flagged transaction value is <C> dollars. A recovery team reclaims <D> dollars in total. What is the unrecovered amount from the flagged transactions?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1,
+            10
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1000,
+            10000
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 5,
+        "C": 5000,
+        "D": 20000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * (B / 100) * C) - D), 4)\nprint(result)",
+      "ground_truth": 480000.0
+    },
+    {
+      "id": "P060",
+      "field": "Forestry Management",
+      "difficulty": "hard",
+      "problem_text": "A stand of <A> trees grows at a rate of <B> percent per year for <C> years. During a thinning operation, <D> trees are selectively removed. How many trees remain? Use simple interest-like growth for estimation: A + A*(B/100)*C - D.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10000,
+        "B": 2.0,
+        "C": 10,
+        "D": 1000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A + A * (B / 100) * C - D), 4)\nprint(result)",
+      "ground_truth": 11000.0
+    },
+    {
+      "id": "P061",
+      "field": "Gastroenterology",
+      "difficulty": "hard",
+      "problem_text": "A patient ingests <A> calories. The digestive system absorbs <B> percent of them. The basal metabolic rate burns <C> calories. Any remaining absorbed calories are stored as fat, where <D> calories equal 1 gram of fat. How many grams of fat are stored?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            2000,
+            4000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            80,
+            95
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1500,
+            2500
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            7.0,
+            9.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 3000,
+        "B": 90,
+        "C": 1800,
+        "D": 9.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(((A * (B / 100)) - C) / D), 4)\nprint(result)",
+      "ground_truth": 100.0
+    },
+    {
+      "id": "P062",
+      "field": "Genetics",
+      "difficulty": "hard",
+      "problem_text": "A gene sequence has <A> codons. A mutation rate of <B> per codon occurs per generation. Over <C> generations, how many mutations are expected? This value is multiplied by an impact factor of <D>. What is the total mutation impact score?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.001,
+            0.01
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            1.5,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 0.005,
+        "C": 50,
+        "D": 2.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * B * C * D), 4)\nprint(result)",
+      "ground_truth": 1000.0
+    },
+    {
+      "id": "P063",
+      "field": "Geochemistry",
+      "difficulty": "hard",
+      "problem_text": "A rock sample contains <A> ppm of isotope X. It decays to isotope Y with a fraction <B> decaying every million years. After <C> million years, what is the concentration of Y? Subtract a background loss of <D> ppm. Use approximation: A * B * C - D.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.01,
+            0.1
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            1,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 500,
+        "B": 0.05,
+        "C": 10,
+        "D": 5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * B * C - D), 4)\nprint(result)",
+      "ground_truth": 245.0
+    },
+    {
+      "id": "P064",
+      "field": "Geophysics",
+      "difficulty": "hard",
+      "problem_text": "A seismic wave travels <A> km through the crust at <B> km/s, and <C> km through the mantle at <D> km/s. What is the total travel time in seconds?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            4.0,
+            7.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            7.0,
+            10.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 30,
+        "B": 6.0,
+        "C": 240,
+        "D": 8.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / B) + (C / D)), 4)\nprint(result)",
+      "ground_truth": 35.0
+    },
+    {
+      "id": "P065",
+      "field": "Gerontology",
+      "difficulty": "hard",
+      "problem_text": "A population of <A> seniors requires <B> hours of care per week. A new health program reduces this requirement by <C> percent. If care costs <D> dollars per hour, what is the new weekly cost for the entire population?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            30
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            15,
+            50
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200,
+        "B": 10,
+        "C": 20,
+        "D": 25
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * B * (1 - C / 100) * D), 4)\nprint(result)",
+      "ground_truth": 40000.0
+    },
+    {
+      "id": "P066",
+      "field": "Glaciology",
+      "difficulty": "hard",
+      "problem_text": "A glacier of mass <A> megatons melts at a rate of <B> megatons per year. During the winter, it accumulates <C> megatons per year. After <D> years, what is the new mass of the glacier?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            20,
+            100
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 3000,
+        "B": 50,
+        "C": 30,
+        "D": 20
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A - (B - C) * D), 4)\nprint(result)",
+      "ground_truth": 2600.0
+    },
+    {
+      "id": "P067",
+      "field": "Graphic Design",
+      "difficulty": "hard",
+      "problem_text": "A designer creates a vector file with <A> paths. Each path requires <B> anchor points. Applying an effect increases the total points by a factor of <C>. The file size is <D> bytes per point. Total file size in bytes?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            4,
+            20
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            1.5,
+            3.0
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            8,
+            32
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 250,
+        "B": 8,
+        "C": 2.0,
+        "D": 16
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * B * C * D), 4)\nprint(result)",
+      "ground_truth": 64000.0
+    },
+    {
+      "id": "P068",
+      "field": "Health Economics",
+      "difficulty": "hard",
+      "problem_text": "A public health campaign costs <A> dollars. It prevents <B> hospital admissions, each costing <C> dollars. However, the administrative overhead is <D> percent of the total campaign cost. What are the net savings? (Savings = Prevented costs - (Campaign + Overhead)).",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100000,
+            500000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            50,
+            500
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200000,
+        "B": 100,
+        "C": 10000,
+        "D": 10
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((B * C) - (A + A * (D / 100))), 4)\nprint(result)",
+      "ground_truth": 780000.0
+    },
+    {
+      "id": "P069",
+      "field": "Histology",
+      "difficulty": "hard",
+      "problem_text": "A tissue slide contains <A> cells. A stain binds to <B> percent of them. The slide is divided into a grid of <C> squares. On average, how many stained cells are in each square? A correction factor of <D> is added per square for edge artifacts.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            10.0,
+            40.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.5,
+            2.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20000,
+        "B": 25.0,
+        "C": 100,
+        "D": 1.5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * (B / 100)) / C + D), 4)\nprint(result)",
+      "ground_truth": 51.5
+    },
+    {
+      "id": "P070",
+      "field": "Horticulture",
+      "difficulty": "hard",
+      "problem_text": "A nursery plants <A> seeds. The germination rate is <B> percent. Of the germinated plants, <C> percent survive to maturity. Each mature plant yields <D> fruits. What is the total fruit yield?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            50,
+            90
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            50,
+            90
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 80,
+        "C": 75,
+        "D": 10
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B / 100) * (C / 100) * D), 4)\nprint(result)",
+      "ground_truth": 12000.0
+    },
+    {
+      "id": "P071",
+      "field": "Human Resources",
+      "difficulty": "hard",
+      "problem_text": "A company has <A> employees. The annual turnover rate is <B> percent. Recruiting a new employee costs <C> dollars, and onboarding costs <D> dollars. What is the total annual cost of replacing employees who leave?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            5.0,
+            15.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1000,
+        "B": 10.0,
+        "C": 3000,
+        "D": 1000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * (B / 100)) * (C + D)), 4)\nprint(result)",
+      "ground_truth": 400000.0
+    },
+    {
+      "id": "P072",
+      "field": "Hydromechanics",
+      "difficulty": "hard",
+      "problem_text": "A pump delivers water at a pressure of <A> Pascals. The flow rate is <B> cubic meters per second. The hydraulic power (P * Q) is converted to kilowatts by dividing by 1000. An efficiency factor of <C> percent is applied, and a fixed friction loss of <D> kW is subtracted. What is the net power in kW?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100000,
+            500000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            1.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            60,
+            95
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            1.0,
+            10.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 200000,
+        "B": 0.5,
+        "C": 80,
+        "D": 5.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(((A * B) / 1000) * (C / 100) - D), 4)\nprint(result)",
+      "ground_truth": 75.0
+    },
+    {
+      "id": "P073",
+      "field": "Immunology",
+      "difficulty": "hard",
+      "problem_text": "An immune response produces <A> antibodies per hour. The pathogen replicates at <B> units per hour. The binding affinity is <C>, meaning each antibody neutralizes <C> pathogens. After <D> hours, what is the net number of pathogens? (Assume pathogens start at 0 and net cannot be negative, but calculate: B*D - A*C*D).",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            1.1,
+            3.0
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 10000,
+        "C": 2.5,
+        "D": 4
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(B * D - A * C * D), 4)\nprint(result)",
+      "ground_truth": 20000.0
+    },
+    {
+      "id": "P074",
+      "field": "Industrial Design",
+      "difficulty": "hard",
+      "problem_text": "A prototype requires <A> parts. <B> percent of these parts are custom-made at <C> dollars each. The standard parts cost <D> dollars each. What is the total cost of the parts?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            40
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            20,
+            100
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 25,
+        "C": 50,
+        "D": 2.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A * (B / 100) * C) + (A * (1 - B / 100) * D)), 4)\nprint(result)",
+      "ground_truth": 1400.0
+    },
+    {
+      "id": "P075",
+      "field": "Industrial Engineering",
+      "difficulty": "hard",
+      "problem_text": "A manufacturing plant has an uptime of <A> percent over a <B> hour week. During uptime, it produces <C> units per hour. A defect rate of <D> percent applies to all produced units. How many non-defective units are produced weekly?",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            80.0,
+            99.0
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            40,
+            168
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 90.0,
+        "B": 100,
+        "C": 200,
+        "D": 2.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((B * (A / 100) * C) * (1 - D / 100)), 4)\nprint(result)",
+      "ground_truth": 17640.0
+    },
+    {
+      "id": "P076",
+      "field": "Information Theory",
+      "difficulty": "very_hard",
+      "problem_text": "A data center processes <A> bits per day. The data is compressed by dividing the total bits by <B>. Each compressed packet is <C> bits. A parity check adds an overhead, calculated by subtracting <D> to the power of <E> from the total packet count. What is the final metric?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100000000000000,
+            1000000000000000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000000,
+            1000000000
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "E": {
+          "type": "int",
+          "range": [
+            2,
+            5
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1000000000000000,
+        "B": 1000000000,
+        "C": 10,
+        "D": 5,
+        "E": 2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / B) * C - D ** E), 4)\nprint(result)",
+      "ground_truth": 9999975.0
+    },
+    {
+      "id": "P077",
+      "field": "Inorganic Chemistry",
+      "difficulty": "very_hard",
+      "problem_text": "A crystal lattice has <A> unit cells. Each cell contains <B> atoms. The lattice expands due to heat, increasing the atomic spacing by a factor of <C>, while <D> atoms are lost at the boundary. The binding energy is <E> eV per remaining atom. Total binding energy?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            4,
+            16
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            1.01,
+            1.1
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            2.0,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 8,
+        "C": 1.05,
+        "D": 50,
+        "E": 3.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * B - D) * E), 4)\nprint(result)",
+      "ground_truth": 47850.0
+    },
+    {
+      "id": "P078",
+      "field": "Investment Banking",
+      "difficulty": "very_hard",
+      "problem_text": "An IPO issues <A> shares at <B> dollars each. The underwriting fee is <C> percent of the total gross. A secondary offering adds <D> shares at a discounted price of <E> dollars. Calculate the net capital raised from the IPO plus the gross of the secondary offering.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000000,
+            5000000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            2.0,
+            7.0
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            100000,
+            500000
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            8.0,
+            40.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000000,
+        "B": 20.0,
+        "C": 5.0,
+        "D": 500000,
+        "E": 15.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * B) * (1 - C / 100) + (D * E)), 4)\nprint(result)",
+      "ground_truth": 45500000.0
+    },
+    {
+      "id": "P079",
+      "field": "Kinesiology",
+      "difficulty": "very_hard",
+      "problem_text": "An athlete performs a jump. The force exerted is <A> N over <B> seconds. The impulse is A*B. This is divided by body mass <C> to find velocity. The kinetic energy is 0.5 * C * v^2. A dampening factor <D> is applied upon landing, and <E> Joules are dissipated as heat. What is the net remaining energy?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            3000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            0.5
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            60,
+            100
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.5,
+            0.9
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 1600,
+        "B": 0.2,
+        "C": 80,
+        "D": 0.8,
+        "E": 20.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nv = (A * B) / C\nresult = round(float((0.5 * C * (v ** 2)) * D - E), 4)\nprint(result)",
+      "ground_truth": 492.0
+    },
+    {
+      "id": "P080",
+      "field": "Labor Economics",
+      "difficulty": "very_hard",
+      "problem_text": "A labor market has <A> workers. <B> percent are unionized and negotiate a wage increase of <C> dollars per hour. The non-unionized workers see a wage decrease of <D> dollars per hour. The average work week is <E> hours. What is the net weekly wage change for the entire market?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            10.0,
+            40.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.5,
+            2.0
+          ]
+        },
+        "E": {
+          "type": "int",
+          "range": [
+            30,
+            40
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20000,
+        "B": 25.0,
+        "C": 3.0,
+        "D": 1.0,
+        "E": 40
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nunion = A * (B / 100)\nnon_union = A - union\nnet_hourly = (union * C) - (non_union * D)\nresult = round(float(net_hourly * E), 4)\nprint(result)",
+      "ground_truth": 0.0
+    },
+    {
+      "id": "P081",
+      "field": "Landscape Architecture",
+      "difficulty": "very_hard",
+      "problem_text": "A park of <A> square meters is designed. Pathways cover a fraction <B>. The remaining area is divided into <C> equal planting beds. Soil is added to each bed at a depth of <D> meters. A bulk soil discount subtracts <E> cubic meters from the total billed volume. Total billed soil volume?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            0.4
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.2,
+            0.8
+          ]
+        },
+        "E": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10000,
+        "B": 0.2,
+        "C": 20,
+        "D": 0.5,
+        "E": 100
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (1 - B)) * D - E), 4)\nprint(result)",
+      "ground_truth": 3900.0
+    },
+    {
+      "id": "P082",
+      "field": "Limnology",
+      "difficulty": "very_hard",
+      "problem_text": "A lake has a volume of <A> million cubic meters. Algae concentration is <B> mg/m^3. A nutrient influx increases this by <C> percent. An algicide treatment removes <D> mg/m^3 from the whole lake. The final total algae mass in kg is computed. Add a margin of error <E> kg. What is the value?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            10.0,
+            30.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            5.0,
+            20.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20,
+        "B": 100,
+        "C": 20.0,
+        "D": 15.0,
+        "E": 10.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nnew_conc = B * (1 + C / 100) - D\ntotal_mass_mg = new_conc * (A * 1000000)\ntotal_mass_kg = total_mass_mg / 1000000\nresult = round(float(total_mass_kg + E), 4)\nprint(result)",
+      "ground_truth": 2110.0
+    },
+    {
+      "id": "P083",
+      "field": "Macroeconomics",
+      "difficulty": "very_hard",
+      "problem_text": "A country's GDP is <A> trillion. The money supply is <B> trillion. The velocity of money is V = GDP/Money Supply. If the central bank increases the money supply by <C> trillion and the velocity drops by <D> percent, what is the new GDP (V_new * Money_new)? Subtract a trade deficit of <E> trillion.",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            10.0,
+            25.0
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            2.0,
+            5.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            0.5,
+            1.5
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            5.0,
+            15.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            0.1,
+            1.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20.0,
+        "B": 4.0,
+        "C": 1.0,
+        "D": 10.0,
+        "E": 0.5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nV_old = A / B\nV_new = V_old * (1 - D / 100)\nM_new = B + C\nresult = round(float((V_new * M_new) - E), 4)\nprint(result)",
+      "ground_truth": 22.0
+    },
+    {
+      "id": "P084",
+      "field": "Marine Biology",
+      "difficulty": "very_hard",
+      "problem_text": "A coral reef covers <A> sq meters. It hosts <B> polyps per sq meter. Acidification reduces the polyp density by a fraction <C>. A restoration project adds <D> lab-grown polyps per sq meter over <E> percent of the reef. What is the total polyp count now?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            5000,
+            20000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            0.1,
+            0.4
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            200,
+            800
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10000,
+        "B": 2000,
+        "C": 0.25,
+        "D": 500,
+        "E": 20.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nbase_polyps = A * (B * (1 - C))\nrestored_polyps = (A * (E / 100)) * D\nresult = round(float(base_polyps + restored_polyps), 4)\nprint(result)",
+      "ground_truth": 16000000.0
+    },
+    {
+      "id": "P085",
+      "field": "Materials Engineering",
+      "difficulty": "very_hard",
+      "problem_text": "An alloy is composed of <A> kg of Metal X and <B> kg of Metal Y. The tensile strength is given by (A*<C> + B*<D>) / (A+B) squared, multiplied by a cooling factor <E>. Calculate this composite strength metric.",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            200.0,
+            400.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            100.0,
+            300.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            0.8,
+            1.2
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20.0,
+        "B": 30.0,
+        "C": 300.0,
+        "D": 200.0,
+        "E": 1.1
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nweighted_avg = (A * C + B * D) / (A + B)\nresult = round(float((weighted_avg ** 2) * E), 4)\nprint(result)",
+      "ground_truth": 63360.0
+    },
+    {
+      "id": "P086",
+      "field": "Mathematical Modeling",
+      "difficulty": "very_hard",
+      "problem_text": "A population model follows P(t) = <A> * exp(<B> * t). For t = <C>, the population is computed. A competing species reduces this population by <D> times the square root of P(t). An immigration constant <E> is added. What is the final population size?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            0.1,
+            0.5
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            2,
+            5
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            2.0,
+            10.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            10.0,
+            100.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 0.34657359,
+        "C": 2,
+        "D": 5.0,
+        "E": 50.0
+      },
+      "python_solution_code": "import math\nA = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nPt = A * math.exp(B * C)\nresult = round(float(Pt - D * math.sqrt(Pt) + E), 4)\nprint(result)",
+      "ground_truth": 175.0
+    },
+    {
+      "id": "P087",
+      "field": "Mechatronics",
+      "difficulty": "very_hard",
+      "problem_text": "A robotic actuator moves a load of <A> kg. The gear ratio is <B>:1, multiplying the motor torque. The motor draws <C> amps at <D> volts. Efficiency is <E> percent. Find the effective mechanical power metric: (C * D * E/100) * B / A.",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            5.0,
+            20.0
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            2.0,
+            10.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            12.0,
+            48.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            70.0,
+            95.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 10.0,
+        "B": 5.0,
+        "C": 2.0,
+        "D": 24.0,
+        "E": 80.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((C * D * (E / 100)) * B / A), 4)\nprint(result)",
+      "ground_truth": 19.2
+    },
+    {
+      "id": "P088",
+      "field": "Medical Imaging",
+      "difficulty": "very_hard",
+      "problem_text": "An MRI scan takes <A> slices, each requiring <B> phase encodings. A compressed sensing algorithm skips <C> percent of encodings. The scanner takes <D> milliseconds per encoding. Processing the image adds a flat <E> seconds. Total time in seconds?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            50,
+            200
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            128,
+            512
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            20.0,
+            50.0
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            10.0,
+            60.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 100,
+        "B": 256,
+        "C": 25.0,
+        "D": 10,
+        "E": 15.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nencodings = A * B * (1 - C / 100)\ntime_ms = encodings * D\nresult = round(float(time_ms / 1000 + E), 4)\nprint(result)",
+      "ground_truth": 207.0
+    },
+    {
+      "id": "P089",
+      "field": "Meteoritics",
+      "difficulty": "very_hard",
+      "problem_text": "A meteor enters the atmosphere with mass <A> kg and velocity <B> km/s. Ablation reduces mass by a factor of e^( -<C> * distance ). If distance is <D> km, and we approximate e^x as (1+x) for small x, use (1 - <C>*<D>). The impact energy is 0.5 * final_mass * B^2. Convert to Megajoules (divide by 1000 since v is km/s? No, if mass is kg and v is km/s, E is in MJ already). Add a crater scale factor <E>. Final metric?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            10.0,
+            30.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            0.001,
+            0.005
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            50,
+            150
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            50.0,
+            200.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 20.0,
+        "C": 0.002,
+        "D": 100,
+        "E": 100.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nfinal_mass = A * (1 - C * D)\nenergy_mj = 0.5 * final_mass * (B ** 2)\nresult = round(float(energy_mj + E), 4)\nprint(result)",
+      "ground_truth": 320100.0
+    },
+    {
+      "id": "P090",
+      "field": "Meteorology",
+      "difficulty": "very_hard",
+      "problem_text": "A storm system spans <A> square km. Rainfall is <B> cm per hour. The storm lasts <C> hours. The total volume of water in cubic meters is calculated (1 sq km = 10^6 sq m, 1 cm = 0.01 m). Evaporation removes <D> percent of the water before it hits the ground. An aqueduct captures <E> cubic meters. Water not captured?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.0,
+            10.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            2.0,
+            12.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            5.0,
+            25.0
+          ]
+        },
+        "E": {
+          "type": "int",
+          "range": [
+            1000000,
+            5000000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 500,
+        "B": 2.0,
+        "C": 5.0,
+        "D": 10.0,
+        "E": 2000000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nvol_m3 = (A * 1000000) * (B * 0.01) * C\nwater_hits_ground = vol_m3 * (1 - D / 100)\nresult = round(float(water_hits_ground - E), 4)\nprint(result)",
+      "ground_truth": 43000000.0
+    },
+    {
+      "id": "P091",
+      "field": "Microbiology",
+      "difficulty": "very_hard",
+      "problem_text": "A bioreactor contains <A> liters of broth. Cell concentration is <B> million per ml. A nutrient feed increases concentration by a power of <C>. The cells are then diluted by adding <D> liters of broth. A death phase kills <E> million cells per ml. Final concentration per ml in millions?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            2.0,
+            5.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            1.5,
+            2.5
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            0.5,
+            2.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20,
+        "B": 4.0,
+        "C": 2.0,
+        "D": 20,
+        "E": 1.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nnew_conc = B ** C\ndiluted_conc = new_conc * (A / (A + D))\nresult = round(float(diluted_conc - E), 4)\nprint(result)",
+      "ground_truth": 7.0
+    },
+    {
+      "id": "P092",
+      "field": "Microeconomics",
+      "difficulty": "very_hard",
+      "problem_text": "A firm produces goods with a fixed cost of <A> and variable cost of <B> per unit. It sells <C> units at a price of P = <D> - <E>*C. Profit is Revenue - Total Cost. Calculate the profit.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000,
+            5000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            5.0,
+            20.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            50.0,
+            200.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            0.01,
+            0.1
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2000,
+        "B": 10.0,
+        "C": 500,
+        "D": 100.0,
+        "E": 0.05
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nprice = D - E * C\nrevenue = price * C\ntotal_cost = A + B * C\nresult = round(float(revenue - total_cost), 4)\nprint(result)",
+      "ground_truth": 30500.0
+    },
+    {
+      "id": "P093",
+      "field": "Mineralogy",
+      "difficulty": "very_hard",
+      "problem_text": "A mineral sample has a mass of <A> grams and a volume of <B> cm^3. Its density is calculated. A solid solution series changes the theoretical density by a fraction of <C> per mole percent of impurity. If impurity is <D> percent, and the sample porosity reduces apparent density by <E> percent, what is the calculated theoretical pure density?",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            50.0,
+            200.0
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            10.0,
+            50.0
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            0.001,
+            0.01
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            5.0,
+            20.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            2.0,
+            10.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 120.0,
+        "B": 30.0,
+        "C": 0.005,
+        "D": 10.0,
+        "E": 5.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\napparent_density = A / B\nbulk_density = apparent_density / (1 - E / 100)\npure_density = bulk_density / (1 + C * D)\nresult = round(float(pure_density), 4)\nprint(result)",
+      "ground_truth": 4.0095
+    },
+    {
+      "id": "P094",
+      "field": "Molecular Biology",
+      "difficulty": "very_hard",
+      "problem_text": "A PCR reaction starts with <A> copies of a template. After <B> cycles, the theoretical yield is A * 2^B. However, amplification efficiency drops to <C> percent after the first <D> cycles. The final yield is calculated as A * (2^D) * ((1 + C/100)^(B - D)). Subtract <E> copies consumed in side reactions. What is the yield?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            20,
+            35
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            80.0,
+            95.0
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10,
+            15
+          ]
+        },
+        "E": {
+          "type": "int",
+          "range": [
+            1000,
+            10000
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 50,
+        "B": 20,
+        "C": 90.0,
+        "D": 10,
+        "E": 5000
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nyield_initial = A * (2 ** D)\nfinal_yield = yield_initial * ((1 + C / 100) ** (B - D))\nresult = round(float(final_yield - E), 4)\nprint(result)",
+      "ground_truth": 31278160.2709
+    },
+    {
+      "id": "P095",
+      "field": "Musicology",
+      "difficulty": "very_hard",
+      "problem_text": "A piece of music has <A> measures. It is played at <B> beats per minute. Each measure has <C> beats. The performance includes <D> fermatas (pauses) that each add an average of <E> seconds. What is the total duration of the performance in seconds?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            60,
+            180
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            3,
+            6
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            1.5,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 120,
+        "B": 90,
+        "C": 4,
+        "D": 3,
+        "E": 2.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\ntotal_beats = A * C\nseconds_per_beat = 60 / B\nduration_music = total_beats * seconds_per_beat\nresult = round(float(duration_music + D * E), 4)\nprint(result)",
+      "ground_truth": 326.0
+    },
+    {
+      "id": "P096",
+      "field": "Mycology",
+      "difficulty": "very_hard",
+      "problem_text": "A mycelial network expands its radius by <A> mm per day. After <B> days, the area of the circular colony is pi * r^2 (use pi = <C>). The biomass is <D> mg per square mm. A competing fungus destroys <E> mg of biomass at the boundary. Net biomass in mg?",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            10,
+            30
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            3.14,
+            3.1416
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.5,
+            2.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            100.0,
+            500.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 2.0,
+        "B": 10,
+        "C": 3.14,
+        "D": 1.5,
+        "E": 200.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nradius = A * B\narea = C * (radius ** 2)\nbiomass = area * D\nresult = round(float(biomass - E), 4)\nprint(result)",
+      "ground_truth": 1684.0
+    },
+    {
+      "id": "P097",
+      "field": "Nanomedicine",
+      "difficulty": "very_hard",
+      "problem_text": "A dose of <A> nanoparticles is injected. They have a half-life of <B> hours in the bloodstream. After <C> hours, the remaining particles target a tumor with <D> percent efficiency. Each successful particle delivers <E> picograms of drug. Total drug delivered in picograms?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            1000000,
+            10000000
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            2.0,
+            12.0
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            12,
+            48
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            1.0,
+            10.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            0.01,
+            0.1
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 4000000,
+        "B": 6.0,
+        "C": 24,
+        "D": 5.0,
+        "E": 0.05
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nremaining = A * ((0.5) ** (C / B))\ntargeted = remaining * (D / 100)\nresult = round(float(targeted * E), 4)\nprint(result)",
+      "ground_truth": 625.0
+    },
+    {
+      "id": "P098",
+      "field": "Network Engineering",
+      "difficulty": "very_hard",
+      "problem_text": "A fiber optic link transmits <A> packets per second. Each packet has a payload of <B> bytes. The protocol overhead is <C> bytes per packet. The transmission runs for <D> seconds. The signal degrades, causing a retransmission of <E> percent of the payloads. Total data transmitted (payload + overhead + retransmissions) in bytes?",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            10000,
+            50000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            1000,
+            1500
+          ]
+        },
+        "C": {
+          "type": "int",
+          "range": [
+            20,
+            100
+          ]
+        },
+        "D": {
+          "type": "int",
+          "range": [
+            10,
+            60
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            1.0,
+            5.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 20000,
+        "B": 1400,
+        "C": 40,
+        "D": 10,
+        "E": 2.0
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nbase_data = A * D * (B + C)\nretrans_data = A * D * B * (E / 100)\nresult = round(float(base_data + retrans_data), 4)\nprint(result)",
+      "ground_truth": 293600000.0
+    },
+    {
+      "id": "P099",
+      "field": "Neurobiology",
+      "difficulty": "very_hard",
+      "problem_text": "A neural circuit consists of <A> neurons, each with <B> synapses. A learning paradigm strengthens <C> percent of these synapses by a weight of <D>. The unstrengthened synapses decay by a weight of <E>. Calculate the net change in synaptic weight across the entire circuit.",
+      "variables": {
+        "A": {
+          "type": "int",
+          "range": [
+            100,
+            1000
+          ]
+        },
+        "B": {
+          "type": "int",
+          "range": [
+            500,
+            2000
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            10.0,
+            30.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            0.5,
+            2.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            0.1,
+            0.5
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 500,
+        "B": 1000,
+        "C": 20.0,
+        "D": 1.5,
+        "E": 0.2
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\ntotal_synapses = A * B\nstrengthened = total_synapses * (C / 100)\ndecayed = total_synapses - strengthened\nresult = round(float((strengthened * D) - (decayed * E)), 4)\nprint(result)",
+      "ground_truth": 70000.0
+    },
+    {
+      "id": "P100",
+      "field": "Nuclear Physics",
+      "difficulty": "very_hard",
+      "problem_text": "In a fission reaction, a nucleus of mass <A> amu absorbs a neutron of mass <B> amu, splitting into two fragments of mass <C> amu and <D> amu, releasing 3 neutrons. The mass defect is calculated. This is multiplied by <E> MeV per amu. Calculate the total energy released in MeV.",
+      "variables": {
+        "A": {
+          "type": "float",
+          "range": [
+            230.0,
+            240.0
+          ]
+        },
+        "B": {
+          "type": "float",
+          "range": [
+            1.0,
+            1.01
+          ]
+        },
+        "C": {
+          "type": "float",
+          "range": [
+            130.0,
+            145.0
+          ]
+        },
+        "D": {
+          "type": "float",
+          "range": [
+            85.0,
+            100.0
+          ]
+        },
+        "E": {
+          "type": "float",
+          "range": [
+            930.0,
+            935.0
+          ]
+        }
+      },
+      "instantiated_values": {
+        "A": 235.04,
+        "B": 1.008,
+        "C": 140.9,
+        "D": 91.9,
+        "E": 931.5
+      },
+      "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\ninitial_mass = A + B\nfinal_mass = C + D + 3 * B\nmass_defect = initial_mass - final_mass\nresult = round(float(mass_defect * E), 4)\nprint(result)",
+      "ground_truth": 208.656
+    }
+  ]
+}

@@ -1,0 +1,3841 @@
+{
+    "dataset_name": "FlexArith-100",
+    "problems": [
+        {
+            "id": "p001",
+            "field": "Political Science",
+            "difficulty": "easy",
+            "problem_text": "Calculate the total votes if candidate 1 gets <A> votes and candidate 2 gets <B> votes.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 300
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A + B, 4)\nprint(result)",
+            "ground_truth": 800
+        },
+        {
+            "id": "p002",
+            "field": "Economics",
+            "difficulty": "easy",
+            "problem_text": "Find the ratio of GDP to debt if GDP is <A> billion and debt is <B> billion.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 500
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 2.0
+        },
+        {
+            "id": "p003",
+            "field": "Sociology",
+            "difficulty": "easy",
+            "problem_text": "If population is <A> and sample size is <B>, what percentage of the population is the sample?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000,
+                "B": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round((B / A) * 100, 4)\nprint(result)",
+            "ground_truth": 5.0
+        },
+        {
+            "id": "p004",
+            "field": "Anthropology",
+            "difficulty": "easy",
+            "problem_text": "Site A yields <A> artifacts, and Site B yields <B>. What is the difference in artifact counts?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        300
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150,
+                "B": 80
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A - B, 4)\nprint(result)",
+            "ground_truth": 70
+        },
+        {
+            "id": "p005",
+            "field": "Psychology",
+            "difficulty": "easy",
+            "problem_text": "Treatment group scores <A> and control group scores <B>. What is the score improvement?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        60,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        40,
+                        60
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 75,
+                "B": 55
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A - B, 4)\nprint(result)",
+            "ground_truth": 20
+        },
+        {
+            "id": "p006",
+            "field": "Geography",
+            "difficulty": "easy",
+            "problem_text": "Region A is <A> sq km and Region B is <B> sq km. Find the combined area.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1200,
+                "B": 800
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A + B, 4)\nprint(result)",
+            "ground_truth": 2000
+        },
+        {
+            "id": "p007",
+            "field": "History",
+            "difficulty": "easy",
+            "problem_text": "Calculate the years elapsed between event A in <A> and event B in <B>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        1600
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1601,
+                        2000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1492,
+                "B": 1776
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(B - A, 4)\nprint(result)",
+            "ground_truth": 284
+        },
+        {
+            "id": "p008",
+            "field": "Archaeology",
+            "difficulty": "easy",
+            "problem_text": "Dig target depth is <A> cm at a rate of <B> cm/day. How many days will it take?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 50.0
+        },
+        {
+            "id": "p009",
+            "field": "Demography",
+            "difficulty": "easy",
+            "problem_text": "There are <A> births and <B> deaths in a year. What is the net natural change?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        3000,
+                        8000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        3000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5000,
+                "B": 2000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A - B, 4)\nprint(result)",
+            "ground_truth": 3000
+        },
+        {
+            "id": "p010",
+            "field": "Criminology",
+            "difficulty": "easy",
+            "problem_text": "There are <A> reported crimes in a population of <B> thousand. Find the crime rate per thousand.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 450,
+                "B": 15
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 30.0
+        },
+        {
+            "id": "p011",
+            "field": "Law",
+            "difficulty": "easy",
+            "problem_text": "Out of <A> filed cases, <B> are settled out of court. How many proceed to trial?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        200
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120,
+                "B": 85
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A - B, 4)\nprint(result)",
+            "ground_truth": 35
+        },
+        {
+            "id": "p012",
+            "field": "Public Policy",
+            "difficulty": "easy",
+            "problem_text": "A public project has a budget of <A> and spends <B>. How much budget is remaining?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000,
+                "B": 7500
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A - B, 4)\nprint(result)",
+            "ground_truth": 2500
+        },
+        {
+            "id": "p013",
+            "field": "Finance",
+            "difficulty": "easy",
+            "problem_text": "Stock price is <A>. You purchase <B> shares. What is the total cost?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        1000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150.5,
+                "B": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A * B, 4)\nprint(result)",
+            "ground_truth": 15050.0
+        },
+        {
+            "id": "p014",
+            "field": "Accounting",
+            "difficulty": "easy",
+            "problem_text": "Total assets are <A> and total liabilities are <B>. Calculate the equity.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        20000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        50000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50000,
+                "B": 32000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A - B, 4)\nprint(result)",
+            "ground_truth": 18000
+        },
+        {
+            "id": "p015",
+            "field": "Marketing",
+            "difficulty": "easy",
+            "problem_text": "An ad campaign yields <A> clicks and <B> conversions. How many clicks are needed per conversion?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1500,
+                "B": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 30.0
+        },
+        {
+            "id": "p016",
+            "field": "Management",
+            "difficulty": "easy",
+            "problem_text": "A company has <A> employees divided into <B> equal teams. How many employees per team?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 144,
+                "B": 12
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 12.0
+        },
+        {
+            "id": "p017",
+            "field": "Education",
+            "difficulty": "easy",
+            "problem_text": "A school has <A> students and <B> teachers. Find the student-to-teacher ratio.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        200,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 600,
+                "B": 30
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 20.0
+        },
+        {
+            "id": "p018",
+            "field": "Epidemiology",
+            "difficulty": "easy",
+            "problem_text": "There are <A> disease cases in a population of <B>. What is the prevalence rate?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        50000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 10000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 0.05
+        },
+        {
+            "id": "p019",
+            "field": "Medicine",
+            "difficulty": "easy",
+            "problem_text": "The required dosage is <A> mg per kg. For a patient weighing <B> kg, what is the total dosage?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        40,
+                        120
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5.5,
+                "B": 70
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A * B, 4)\nprint(result)",
+            "ground_truth": 385.0
+        },
+        {
+            "id": "p020",
+            "field": "Nursing",
+            "difficulty": "easy",
+            "problem_text": "An IV bag contains <A> ml to be infused over <B> hours. Calculate the rate in ml per hour.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        250,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        24
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 125.0
+        },
+        {
+            "id": "p021",
+            "field": "Pharmacology",
+            "difficulty": "easy",
+            "problem_text": "Clearance is <A> L/h and volume is <B> L. The half-life is estimated as 0.693 * volume / clearance. Find it.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5.0,
+                "B": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(0.693 * B / A, 4)\nprint(result)",
+            "ground_truth": 6.93
+        },
+        {
+            "id": "p022",
+            "field": "Biology",
+            "difficulty": "easy",
+            "problem_text": "A culture starts with <A> cells and multiplies by a factor of <B>. What is the final cell count?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100,
+                "B": 8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A * B, 4)\nprint(result)",
+            "ground_truth": 800
+        },
+        {
+            "id": "p023",
+            "field": "Physics",
+            "difficulty": "easy",
+            "problem_text": "A mass of <A> kg accelerates at <B> m/s^2. What is the total force applied?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        20.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 12.5,
+                "B": 9.8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A * B, 4)\nprint(result)",
+            "ground_truth": 122.5
+        },
+        {
+            "id": "p024",
+            "field": "Chemistry",
+            "difficulty": "easy",
+            "problem_text": "There are <A> moles of solute in a <B> L solution. What is the molar concentration?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        10.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2.5,
+                "B": 0.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A / B, 4)\nprint(result)",
+            "ground_truth": 5.0
+        },
+        {
+            "id": "p025",
+            "field": "Environmental Science",
+            "difficulty": "easy",
+            "problem_text": "A factory emits <A> tons of CO2 annually for <B> years. What are the total emissions?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45.2,
+                "B": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(A * B, 4)\nprint(result)",
+            "ground_truth": 452.0
+        },
+        {
+            "id": "p026",
+            "field": "Climate Science",
+            "difficulty": "medium",
+            "problem_text": "Baseline temperature is <A> degrees, rising <B> degrees annually over <C> years. Final temperature?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        20.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 14.5,
+                "B": 0.02,
+                "C": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A + B * C, 4)\nprint(result)",
+            "ground_truth": 15.5
+        },
+        {
+            "id": "p027",
+            "field": "Statistics",
+            "difficulty": "medium",
+            "problem_text": "A dataset of <A> items has a mean of <B>. If an element of value <C> is added, what is the new total sum?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        200
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 9,
+                "B": 50,
+                "C": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B + C, 4)\nprint(result)",
+            "ground_truth": 550.0
+        },
+        {
+            "id": "p028",
+            "field": "Data Science",
+            "difficulty": "medium",
+            "problem_text": "Dataset split has <A> training, <B> validation, and <C> testing samples. Total samples?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 800,
+                "B": 100,
+                "C": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A + B + C, 4)\nprint(result)",
+            "ground_truth": 1000
+        },
+        {
+            "id": "p029",
+            "field": "Artificial Intelligence",
+            "difficulty": "medium",
+            "problem_text": "A network has <A> params per layer across <B> layers, using <C> bytes each. Total size in bytes?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        8
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 12,
+                "C": 4
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 48000
+        },
+        {
+            "id": "p030",
+            "field": "Machine Learning",
+            "difficulty": "medium",
+            "problem_text": "Evaluate precision (TP/(TP+FP)) if True Positives are <A>, False Positives <B>, and False Negatives <C>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 80,
+                "B": 20,
+                "C": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A / (A + B), 4)\nprint(result)",
+            "ground_truth": 0.8
+        },
+        {
+            "id": "p031",
+            "field": "Civil Engineering",
+            "difficulty": "medium",
+            "problem_text": "Given ultimate load <A>, base area <B>, and safety factor <C>, find safe load per unit area ((AC)/B).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        10000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5000,
+                "B": 25,
+                "C": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((A * C) / B, 4)\nprint(result)",
+            "ground_truth": 400.0
+        },
+        {
+            "id": "p032",
+            "field": "Mechanical Engineering",
+            "difficulty": "medium",
+            "problem_text": "Compute horsepower as (Torque <A> * RPM <B>) / Constant <C>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        4000,
+                        6000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 300,
+                "B": 2000,
+                "C": 5000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((A * B) / C, 4)\nprint(result)",
+            "ground_truth": 120.0
+        },
+        {
+            "id": "p033",
+            "field": "Electrical Engineering",
+            "difficulty": "medium",
+            "problem_text": "Energy consumed is given by (Voltage <A> squared / Resistance <B>) * Time <C>. Calculate it.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        240
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 12,
+                "B": 4,
+                "C": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(((A ** 2) / B) * C, 4)\nprint(result)",
+            "ground_truth": 360.0
+        },
+        {
+            "id": "p034",
+            "field": "Aerospace Engineering",
+            "difficulty": "medium",
+            "problem_text": "Find acceleration if Thrust is <A>, Drag is <B>, and Mass is <C>. (Formula: (A-B)/C).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        20000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50000,
+                "B": 10000,
+                "C": 2000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((A - B) / C, 4)\nprint(result)",
+            "ground_truth": 20.0
+        },
+        {
+            "id": "p035",
+            "field": "Urban Planning",
+            "difficulty": "medium",
+            "problem_text": "Required park area is Population <A> / Density <B> * Ratio <C>. Find park area.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        500000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        10000
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100000,
+                "B": 5000,
+                "C": 0.1
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((A / B) * C, 4)\nprint(result)",
+            "ground_truth": 2.0
+        },
+        {
+            "id": "p036",
+            "field": "Architecture",
+            "difficulty": "medium",
+            "problem_text": "Calculate room volume with length <A>, width <B>, and height <C>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20,
+                "B": 15,
+                "C": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 3000
+        },
+        {
+            "id": "p037",
+            "field": "Agriculture",
+            "difficulty": "medium",
+            "problem_text": "Crop yield is <A> per acre, across <B> acres, selling at $<C> each. Total revenue?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        200
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150,
+                "B": 50,
+                "C": 4.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 33750.0
+        },
+        {
+            "id": "p038",
+            "field": "Forestry",
+            "difficulty": "medium",
+            "problem_text": "With <A> trees growing at rate <B> for <C> years, what is the simplistic future yield A(1+BC)?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 0.05,
+                "C": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * (1 + B * C), 4)\nprint(result)",
+            "ground_truth": 1500.0
+        },
+        {
+            "id": "p039",
+            "field": "Fisheries",
+            "difficulty": "medium",
+            "problem_text": "If current catch is <A>, quota is <B>, and <C> boats remain, what is the allowance per boat?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 4000,
+                "B": 10000,
+                "C": 20
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((B - A) / C, 4)\nprint(result)",
+            "ground_truth": 300.0
+        },
+        {
+            "id": "p040",
+            "field": "Oceanography",
+            "difficulty": "medium",
+            "problem_text": "Hydrostatic pressure equals Depth <A> * Density <B> * Gravity <C>. Find the pressure.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        1050
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        9.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 1025,
+                "C": 9.8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 10045000.0
+        },
+        {
+            "id": "p041",
+            "field": "Astronomy",
+            "difficulty": "medium",
+            "problem_text": "Initial distance is <A>. A probe travels at speed <B> for <C> days. What is the total distance?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000000,
+                        200000000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000000,
+                        5000000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150000000,
+                "B": 2592000,
+                "C": 30
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A + B * C, 4)\nprint(result)",
+            "ground_truth": 227760000.0
+        },
+        {
+            "id": "p042",
+            "field": "Mathematics",
+            "difficulty": "medium",
+            "problem_text": "Find the scaled hypotenuse calculated as ((<A>^2 + <B>^2)^0.5) * <C>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        3,
+                        10
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        4,
+                        15
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 3,
+                "B": 4,
+                "C": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(((A2 + B2)**0.5) * C, 4)\nprint(result)",
+            "ground_truth": 50.0
+        },
+        {
+            "id": "p043",
+            "field": "Linguistics",
+            "difficulty": "medium",
+            "problem_text": "Average speaker uses <A> unique words. There are <B> speakers, each using words <C> times daily. Total usage?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 1000,
+                "C": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 1000000
+        },
+        {
+            "id": "p044",
+            "field": "Literature",
+            "difficulty": "medium",
+            "problem_text": "A book consists of <A> chapters, each <B> pages long, with <C> words per page. Find total words.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        30
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        200,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20,
+                "B": 15,
+                "C": 250
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 75000
+        },
+        {
+            "id": "p045",
+            "field": "Philosophy",
+            "difficulty": "medium",
+            "problem_text": "A philosophy library buys <A> books at $<B> each with a <C> discount rate. Total cost?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        20
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5,
+                "B": 20,
+                "C": 0.1
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * (1 - C), 4)\nprint(result)",
+            "ground_truth": 90.0
+        },
+        {
+            "id": "p046",
+            "field": "Theology",
+            "difficulty": "medium",
+            "problem_text": "A congregation of <A> members gives <B> monthly for <C> months. What is the total collection?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        6,
+                        24
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200,
+                "B": 50,
+                "C": 12
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 120000
+        },
+        {
+            "id": "p047",
+            "field": "Ethics",
+            "difficulty": "medium",
+            "problem_text": "Evaluating <A> ethics cases takes <C> hours each, split equally among <B> reviewers. Hours per reviewer?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100,
+                "B": 5,
+                "C": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((A * C) / B, 4)\nprint(result)",
+            "ground_truth": 40.0
+        },
+        {
+            "id": "p048",
+            "field": "Journalism",
+            "difficulty": "medium",
+            "problem_text": "Writing an article of <A> words at <B> words/min, plus <C> mins of editing. Total time spent?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        80
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        60
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1200,
+                "B": 40,
+                "C": 15
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((A / B) + C, 4)\nprint(result)",
+            "ground_truth": 45.0
+        },
+        {
+            "id": "p049",
+            "field": "Media Studies",
+            "difficulty": "medium",
+            "problem_text": "A broadcast has <A> viewers, <B> ad slots, and makes $<C> per view per ad. Total ad revenue?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50000,
+                "B": 3,
+                "C": 0.01
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(A * B * C, 4)\nprint(result)",
+            "ground_truth": 1500.0
+        },
+        {
+            "id": "p050",
+            "field": "Communication Studies",
+            "difficulty": "medium",
+            "problem_text": "In a network of <A> nodes and <B> edges with weight <C>, find network metric BC/(A*(A-1)).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        4,
+                        10
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5,
+                "B": 10,
+                "C": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round((B * C) / (A * (A - 1)), 4)\nprint(result)",
+            "ground_truth": 1.0
+        },
+        {
+            "id": "p051",
+            "field": "International Relations",
+            "difficulty": "hard",
+            "problem_text": "Calculate distributed aid per ally using budget <A>, percentage <B>, <C> allies, and fixed factor <D>. Formula: (AB)/(C+D).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 0.15,
+                "C": 5,
+                "D": 1
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * B) / (C + D), 4)\nprint(result)",
+            "ground_truth": 25.0
+        },
+        {
+            "id": "p052",
+            "field": "Security Studies",
+            "difficulty": "hard",
+            "problem_text": "With <A> threats, probability <B>, impact <C>, and defense cost <D>. Calculate net expected loss: ABC - D.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50000,
+                        200000
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10,
+                "B": 0.05,
+                "C": 100000,
+                "D": 2000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C - D, 4)\nprint(result)",
+            "ground_truth": 3000.0
+        },
+        {
+            "id": "p053",
+            "field": "Military Science",
+            "difficulty": "hard",
+            "problem_text": "For <A> troops, supply <B>, consumption <C> per day per troop over <D> days. Remaining supplies: B - ACD.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50000,
+                        200000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        30
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 100000,
+                "C": 5,
+                "D": 14
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(B - A * C * D, 4)\nprint(result)",
+            "ground_truth": 65000
+        },
+        {
+            "id": "p054",
+            "field": "Supply Chain Management",
+            "difficulty": "hard",
+            "problem_text": "Compute Economic Order Quantity using demand <A>, order cost <B>, and holding cost <C>. Formula: ((2AB)/C)^0.5.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000,
+                "B": 50,
+                "C": 4
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(((2 * A * B) / C) ** 0.5, 4)\nprint(result)",
+            "ground_truth": 500.0
+        },
+        {
+            "id": "p055",
+            "field": "Operations Research",
+            "difficulty": "hard",
+            "problem_text": "Process <A> jobs on <B> machines, rate <C> per machine, plus setup <D>. Time: (A/(BC)) + D.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 5,
+                "C": 10,
+                "D": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A / (B * C)) + D, 4)\nprint(result)",
+            "ground_truth": 12.0
+        },
+        {
+            "id": "p056",
+            "field": "Actuarial Science",
+            "difficulty": "hard",
+            "problem_text": "With premium <A>, claim prob <B>, payout <C>, and expenses <D>. Expected profit: A - (BC) - D.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.005,
+                        0.05
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1200,
+                "B": 0.01,
+                "C": 50000,
+                "D": 150
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A - (B * C) - D, 4)\nprint(result)",
+            "ground_truth": 550.0
+        },
+        {
+            "id": "p057",
+            "field": "Insurance",
+            "difficulty": "hard",
+            "problem_text": "Total payout for <A> claims, with average gross claim <B>, deductible <C>, and processing limit <D>. Payout: A(B-C). (D is dummy).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50,
+                "B": 4000,
+                "C": 500,
+                "D": 10000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * (B - C), 4)\nprint(result)",
+            "ground_truth": 175000
+        },
+        {
+            "id": "p058",
+            "field": "Real Estate",
+            "difficulty": "hard",
+            "problem_text": "Loan cost for house price <A>, down payment rate <B>, rate <C>, factor <D>. Cost: A*(1-B)(1+CD).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100000,
+                        1000000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.3
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500000,
+                "B": 0.2,
+                "C": 0.05,
+                "D": 5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * (1 - B) * (1 + C * D), 4)\nprint(result)",
+            "ground_truth": 500000.0
+        },
+        {
+            "id": "p059",
+            "field": "Transportation Engineering",
+            "difficulty": "hard",
+            "problem_text": "Calculate traffic metric given flow <A>, lanes <B>, duration <C>, and rate constant <D>. Metric: ABC/D.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        6
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        30,
+                        120
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1500,
+                "B": 4,
+                "C": 2,
+                "D": 60
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * B * C) / D, 4)\nprint(result)",
+            "ground_truth": 200.0
+        },
+        {
+            "id": "p060",
+            "field": "Energy Systems",
+            "difficulty": "hard",
+            "problem_text": "Find total energy cost with power <A> kW, efficiency <B>, hours <C>, and cost <D> per kWh. Cost: ABCD.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        1.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.3
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50,
+                "B": 0.8,
+                "C": 24,
+                "D": 0.15
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C * D, 4)\nprint(result)",
+            "ground_truth": 144.0
+        },
+        {
+            "id": "p061",
+            "field": "Renewable Energy",
+            "difficulty": "hard",
+            "problem_text": "Determine solar output for <A> panels, area <B>, insolation <C>, and efficiency <D>. Output: ABCD.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        8
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.3
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20,
+                "B": 1.5,
+                "C": 5,
+                "D": 0.18
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C * D, 4)\nprint(result)",
+            "ground_truth": 27.0
+        },
+        {
+            "id": "p062",
+            "field": "Hydrology",
+            "difficulty": "hard",
+            "problem_text": "Calculate net basin water: Rainfall <A> * Area <B> * Runoff <C> - Evaporation <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.9
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100,
+                "B": 50,
+                "C": 0.6,
+                "D": 500
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C - D, 4)\nprint(result)",
+            "ground_truth": 2500.0
+        },
+        {
+            "id": "p063",
+            "field": "Geology",
+            "difficulty": "hard",
+            "problem_text": "Estimate basin depth: Deposition rate <A> * Time <B> + Subsidence <C> * Compaction <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        5.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2.5,
+                "B": 1000,
+                "C": 10,
+                "D": 5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B + C * D, 4)\nprint(result)",
+            "ground_truth": 2550.0
+        },
+        {
+            "id": "p064",
+            "field": "Mining Engineering",
+            "difficulty": "hard",
+            "problem_text": "Mine revenue equals Ore <A> * Grade <B> * Recovery <C> * Price <D>. Compute it.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        0.99
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000,
+                "B": 0.02,
+                "C": 0.85,
+                "D": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C * D, 4)\nprint(result)",
+            "ground_truth": 8500.0
+        },
+        {
+            "id": "p065",
+            "field": "Materials Science",
+            "difficulty": "hard",
+            "problem_text": "Find strain energy: 0.5 * Stress <A> * Strain <B> * Volume <D>. (C is unused elastic modulus placeholder).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.001,
+                        0.01
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        100000,
+                        300000
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200,
+                "B": 0.001,
+                "C": 200000,
+                "D": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(0.5 * A * B * D, 4)\nprint(result)",
+            "ground_truth": 5.0
+        },
+        {
+            "id": "p066",
+            "field": "Nanotechnology",
+            "difficulty": "hard",
+            "problem_text": "Calculate nanoparticle mass metric using count <A>, radius <B>, density <C>, constant <D>. Formula: A * C * 4 * D * (B**3) / 3.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 2,
+                "C": 5,
+                "D": 3
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * C * 4 * D * (B ** 3)) / 3, 4)\nprint(result)",
+            "ground_truth": 160000.0
+        },
+        {
+            "id": "p067",
+            "field": "Robotics",
+            "difficulty": "hard",
+            "problem_text": "Compute maximum static torque for <A> joints, link length <B>, mass <C>, and gravity <D>. Torque = ABC*D.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        1.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        9.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 6,
+                "B": 0.5,
+                "C": 2,
+                "D": 9.8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C * D, 4)\nprint(result)",
+            "ground_truth": 58.8
+        },
+        {
+            "id": "p068",
+            "field": "Software Engineering",
+            "difficulty": "hard",
+            "problem_text": "Time to delivery: (LOC <A> / (Productivity <B> * Devs <C>)) + Bugs <D> * 2. Find total days.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50000,
+                "B": 50,
+                "C": 10,
+                "D": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A / (B * C)) + (D * 2), 4)\nprint(result)",
+            "ground_truth": 300.0
+        },
+        {
+            "id": "p069",
+            "field": "Cybersecurity",
+            "difficulty": "hard",
+            "problem_text": "Evaluate residual risk: Asset value <A> * Vulnerability <B> * Threat <C> * (1 - Control <D>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500000,
+                        2000000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        1.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        1.0
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        0.99
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000000,
+                "B": 0.8,
+                "C": 0.5,
+                "D": 0.9
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(A * B * C * (1 - D), 4)\nprint(result)",
+            "ground_truth": 40000.0
+        },
+        {
+            "id": "p070",
+            "field": "Information Systems",
+            "difficulty": "hard",
+            "problem_text": "Find server load: (Users <A> * Requests <B>) / Capacity <C> + Overhead <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        10000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5000,
+                "B": 20,
+                "C": 1000,
+                "D": 15
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * B) / C + D, 4)\nprint(result)",
+            "ground_truth": 115.0
+        },
+        {
+            "id": "p071",
+            "field": "Game Theory",
+            "difficulty": "hard",
+            "problem_text": "Calculate expected iterative value: (Payoff <A> * Probability <B> - Cost <C>) * Iterations <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.9
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100,
+                "B": 0.6,
+                "C": 20,
+                "D": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * B - C) * D, 4)\nprint(result)",
+            "ground_truth": 2000.0
+        },
+        {
+            "id": "p072",
+            "field": "Behavioral Economics",
+            "difficulty": "hard",
+            "problem_text": "Assess biased utility for N samples: (Value1 <A> * Bias <C> + Value2 <B> * (1 - Bias <C>)) * Samples <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        0.9
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10,
+                "B": 5,
+                "C": 0.8,
+                "D": 200
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * C + B * (1 - C)) * D, 4)\nprint(result)",
+            "ground_truth": 1800.0
+        },
+        {
+            "id": "p073",
+            "field": "Development Studies",
+            "difficulty": "hard",
+            "problem_text": "Calculate development metric: (GDP <A> / Population <B>) * Gini <C> + Aid <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50000000,
+                        500000000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.8
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100000000,
+                "B": 50000,
+                "C": 0.4,
+                "D": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A / B) * C + D, 4)\nprint(result)",
+            "ground_truth": 900.0
+        },
+        {
+            "id": "p074",
+            "field": "Gender Studies",
+            "difficulty": "hard",
+            "problem_text": "Find annual wage gap: (Male wage <A> - Female wage <B>) * Hours <C> * Weeks <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        50
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        15,
+                        40
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        30,
+                        50
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        40,
+                        52
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 30,
+                "B": 25,
+                "C": 40,
+                "D": 52
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A - B) * C * D, 4)\nprint(result)",
+            "ground_truth": 10400.0
+        },
+        {
+            "id": "p075",
+            "field": "Cultural Studies",
+            "difficulty": "hard",
+            "problem_text": "Determine cultural score: (Artifacts <A> * Sites <B> * Weight <C>) / Diversity Index <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        5.0
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 12,
+                "C": 1.5,
+                "D": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round((A * B * C) / D, 4)\nprint(result)",
+            "ground_truth": 900.0
+        },
+        {
+            "id": "p076",
+            "field": "Sports Science",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate complex power output metric: (Force <A> * Velocity <B> * AngleFactor <C>) / (Mass <D> * Time <E>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        1.0
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        150
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 5,
+                "C": 0.9,
+                "D": 80,
+                "E": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * C) / (D * E), 4)\nprint(result)",
+            "ground_truth": 28.125
+        },
+        {
+            "id": "p077",
+            "field": "Kinesiology",
+            "difficulty": "very_hard",
+            "problem_text": "Find total work adjusted for rest: (Torque <A> * ROM <B> * Reps <C> * Sets <D>) - Rest <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        8
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        30,
+                        120
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50,
+                "B": 1.5,
+                "C": 10,
+                "D": 4,
+                "E": 60
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * C * D) - E, 4)\nprint(result)",
+            "ground_truth": 2940.0
+        },
+        {
+            "id": "p078",
+            "field": "Nutrition Science",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate net calories: ((Carbs <A> - Fiber <D>)*4 + Protein <B>*4 + Fat <C>*9) * (1 - ThermicLoss <E>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        400
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        30,
+                        100
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.2
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250,
+                "B": 100,
+                "C": 60,
+                "D": 30,
+                "E": 0.1
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(((A - D) * 4 + B * 4 + C * 9) * (1 - E), 4)\nprint(result)",
+            "ground_truth": 1638.0
+        },
+        {
+            "id": "p079",
+            "field": "Veterinary Science",
+            "difficulty": "very_hard",
+            "problem_text": "Required medical volume: (Weight <A> * Dose <B> * Frequency <C> * Days <D>) / Concentration <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        7,
+                        30
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20,
+                "B": 5,
+                "C": 2,
+                "D": 14,
+                "E": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * C * D) / E, 4)\nprint(result)",
+            "ground_truth": 56.0
+        },
+        {
+            "id": "p080",
+            "field": "Public Health",
+            "difficulty": "very_hard",
+            "problem_text": "Estimate active cases: Population <A> * Rate <B> * Risk <C> * (1 - VaxRate <D> * Efficacy <E>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50000,
+                        500000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        0.9
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        0.7,
+                        0.99
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100000,
+                "B": 0.02,
+                "C": 1,
+                "D": 0.8,
+                "E": 0.9
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(A * B * C * (1 - D * E), 4)\nprint(result)",
+            "ground_truth": 560.0
+        },
+        {
+            "id": "p081",
+            "field": "Toxicology",
+            "difficulty": "very_hard",
+            "problem_text": "Determine toxicity index: (LD50 <A> * Mass <B>) / (Exposure <C> * Bioavailability <D> * Clearance <E>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        40,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        1.0
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50,
+                "B": 70,
+                "C": 10,
+                "D": 0.5,
+                "E": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B) / (C * D * E), 4)\nprint(result)",
+            "ground_truth": 350.0
+        },
+        {
+            "id": "p082",
+            "field": "Biotechnology",
+            "difficulty": "very_hard",
+            "problem_text": "Compute production rate: (Volume <A> * Density <B> * Yield <C> * Purity <D>) / Time <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        1.0
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.8,
+                        0.99
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        12,
+                        48
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500,
+                "B": 2,
+                "C": 0.8,
+                "D": 0.9,
+                "E": 12
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * C * D) / E, 4)\nprint(result)",
+            "ground_truth": 60.0
+        },
+        {
+            "id": "p083",
+            "field": "Genetics",
+            "difficulty": "very_hard",
+            "problem_text": "Find heterozygotes with linear mutation approximation: 2 * Pop <A> * FreqP <B> * FreqQ <C> * (1 - Mut <D> * Gen <E>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.9
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.9
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.001,
+                        0.05
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000,
+                "B": 0.6,
+                "C": 0.4,
+                "D": 0.01,
+                "E": 5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(2 * A * B * C * (1 - D * E), 4)\nprint(result)",
+            "ground_truth": 4560.0
+        },
+        {
+            "id": "p084",
+            "field": "Neuroscience",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate total signal across a massive network: (Neurons <A> * Spikes <B> * Synapses <C> * Transmitter <D>) / Degradation <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100000000,
+                        5000000000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        5000
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.5
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000000000,
+                "B": 50,
+                "C": 1000,
+                "D": 0.1,
+                "E": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * C * D) / E, 4)\nprint(result)",
+            "ground_truth": 2500000000000.0
+        },
+        {
+            "id": "p085",
+            "field": "Cognitive Science",
+            "difficulty": "very_hard",
+            "problem_text": "Compute complex performance score: (Trials <C> * Condition <D>) / (RT <A> + Error <B> * Penalty <E>).",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        1.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.2
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 0.5,
+                "B": 0.05,
+                "C": 100,
+                "D": 4,
+                "E": 2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((C * D) / (A + B * E), 4)\nprint(result)",
+            "ground_truth": 666.6667
+        },
+        {
+            "id": "p086",
+            "field": "Library Science",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate use index: (Books <A> * Circulation <B>) / (Users <C> * Days <E>) + Fines <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        365
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50000,
+                "B": 3,
+                "C": 100,
+                "D": 500,
+                "E": 30
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B) / (C * E) + D, 4)\nprint(result)",
+            "ground_truth": 550.0
+        },
+        {
+            "id": "p087",
+            "field": "Museum Studies",
+            "difficulty": "very_hard",
+            "problem_text": "Determine net income: Visitors <A> * Ticket <B> + Exhibits <C> * Grant <E> - Maintenance <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        50000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20000,
+                "B": 15,
+                "C": 4,
+                "D": 50000,
+                "E": 10000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(A * B + C * E - D, 4)\nprint(result)",
+            "ground_truth": 290000.0
+        },
+        {
+            "id": "p088",
+            "field": "Tourism Management",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate economic impact: Tourists <A> * Spend <B> * Days <C> * (1 - Leakage <D>) * Multiplier <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        10000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        300
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        14
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.5
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        3.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 5000,
+                "B": 100,
+                "C": 7,
+                "D": 0.3,
+                "E": 1.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(A * B * C * (1 - D) * E, 4)\nprint(result)",
+            "ground_truth": 3675000.0
+        },
+        {
+            "id": "p089",
+            "field": "Hospitality Management",
+            "difficulty": "very_hard",
+            "problem_text": "Find hotel monthly revenue: (Rooms <A> * Occupancy <B> * ADR <C> - Rooms <A> * VarCost <D>) * Days <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        1.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        300
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        28,
+                        31
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200,
+                "B": 0.8,
+                "C": 150,
+                "D": 20,
+                "E": 30
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * C - A * D) * E, 4)\nprint(result)",
+            "ground_truth": 600000.0
+        },
+        {
+            "id": "p090",
+            "field": "Retail Analytics",
+            "difficulty": "very_hard",
+            "problem_text": "Compute store net profit: Footfall <A> * Conversion <B> * ATV <C> * Margin <D> - Rent <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.2
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        200
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.6
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        10000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000,
+                "B": 0.05,
+                "C": 80,
+                "D": 0.4,
+                "E": 5000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(A * B * C * D - E, 4)\nprint(result)",
+            "ground_truth": 11000.0
+        },
+        {
+            "id": "p091",
+            "field": "E-commerce",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate e-commerce profit: Traffic <A> * ConversionRate <B> * (AOV <C> - CAC <D>) - FixedCosts <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        300
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50000,
+                "B": 0.02,
+                "C": 120,
+                "D": 30,
+                "E": 10000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(A * B * (C - D) - E, 4)\nprint(result)",
+            "ground_truth": 80000.0
+        },
+        {
+            "id": "p092",
+            "field": "Blockchain Systems",
+            "difficulty": "very_hard",
+            "problem_text": "Determine mining revenue: (Hashrate <A> / Difficulty <B>) * BlockReward <C> * (86400 / BlockTime <D>) * Price <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100000000000000,
+                        5000000000000000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000000000000000,
+                        9000000000000000
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        300,
+                        1200
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000000000000000,
+                "B": 5000000000000000,
+                "C": 6.25,
+                "D": 600,
+                "E": 40000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A / B) * C * (86400 / D) * E, 4)\nprint(result)",
+            "ground_truth": 7200000.0
+        },
+        {
+            "id": "p093",
+            "field": "Cryptography",
+            "difficulty": "very_hard",
+            "problem_text": "Compute encryption time metric: (MessageSize <E> / BlockSize <C>) * Rounds <B> * (KeySize <A> / Overhead <D>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        128,
+                        512
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        20
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        64,
+                        256
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        16,
+                        128
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        512,
+                        4096
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 256,
+                "B": 14,
+                "C": 128,
+                "D": 64,
+                "E": 1024
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((E / C) * B * (A / D), 4)\nprint(result)",
+            "ground_truth": 448.0
+        },
+        {
+            "id": "p094",
+            "field": "Quantum Computing",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate linear success metric: (1 - Error <C> * Gates <B>) * Shots <D> * (Coherence <E> / Qubits <A>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.001,
+                        0.05
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        20000
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50,
+                "B": 20,
+                "C": 0.01,
+                "D": 10000,
+                "E": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((1 - C * B) * D * (E / A), 4)\nprint(result)",
+            "ground_truth": 16000.0
+        },
+        {
+            "id": "p095",
+            "field": "Demolitions",
+            "difficulty": "very_hard",
+            "problem_text": "Find blasted volume: Charge <A> * Holes <B> / (Burden <D> * Spacing <E>) + Delay <C>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "D": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10,
+                "B": 50,
+                "C": 500,
+                "D": 2,
+                "E": 5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B) / (D * E) + C, 4)\nprint(result)",
+            "ground_truth": 550.0
+        },
+        {
+            "id": "p096",
+            "field": "Textile Engineering",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate fabric production length: (Spindles <A> * Speed <B> * Efficiency <D>) / (Twist <C> * Count <E>).",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        20000
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        1500
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.7,
+                        0.99
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        20,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 15000,
+                "C": 800,
+                "D": 0.85,
+                "E": 30
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round((A * B * D) / (C * E), 4)\nprint(result)",
+            "ground_truth": 531.25
+        },
+        {
+            "id": "p097",
+            "field": "Acoustics",
+            "difficulty": "very_hard",
+            "problem_text": "Compute simplified acoustic level metric: Power <A> * Reference <B> / Distance <C> - Absorption <D> * Frequency <E>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        10
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        1.0
+                    ]
+                },
+                "E": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 50,
+                "C": 2,
+                "D": 0.5,
+                "E": 100
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(A * B / C - D * E, 4)\nprint(result)",
+            "ground_truth": 24950.0
+        }
+    ]
+}

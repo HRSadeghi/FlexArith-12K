@@ -1,0 +1,4005 @@
+{
+    "dataset_name": "FlexArith-100",
+    "problems": [
+        {
+            "id": "p001",
+            "field": "Agrobiology",
+            "difficulty": "easy",
+            "problem_text": "An experimental field yields <A> kilograms of biomass per hectare. If the field is <B> hectares in size, what is the total biomass produced?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        20.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45.5,
+                "B": 12.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 546.0
+        },
+        {
+            "id": "p002",
+            "field": "Astrochemistry",
+            "difficulty": "easy",
+            "problem_text": "A deep space scan detects <A> complex organic molecules in a volume of <B> cubic parsecs. What is the average molecule density per cubic parsec?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        100000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45000,
+                "B": 15
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A / B), 4)\nprint(result)",
+            "ground_truth": 3000.0
+        },
+        {
+            "id": "p003",
+            "field": "Biophysical Economics",
+            "difficulty": "easy",
+            "problem_text": "An economic process requires <A> Joules of embedded energy. If <B> Joules are dissipated as waste heat, what is the useful energy remaining?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2500.5,
+                "B": 450.25
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 2050.25
+        },
+        {
+            "id": "p004",
+            "field": "Cosmography",
+            "difficulty": "easy",
+            "problem_text": "A newly mapped stellar sector contains <A> stars, and a neighboring sector contains <B> stars. How many stars are there in total across both sectors?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        50000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 23000,
+                "B": 41000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+            "ground_truth": 64000.0
+        },
+        {
+            "id": "p005",
+            "field": "Cryopedology",
+            "difficulty": "easy",
+            "problem_text": "The permafrost depth in a region is <A> meters. Due to anomalous summer warming, the permafrost recedes by <B> meters. What is the new depth?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 25.4,
+                "B": 1.2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 24.2
+        },
+        {
+            "id": "p006",
+            "field": "Cytogenetics",
+            "difficulty": "easy",
+            "problem_text": "A cell culture divides into <A> equal groups. If the original culture contained <B> cells, how many cells are in each group?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        10
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        10000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 4,
+                "B": 4048
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(B / A), 4)\nprint(result)",
+            "ground_truth": 1012.0
+        },
+        {
+            "id": "p007",
+            "field": "Ecotoxicology",
+            "difficulty": "easy",
+            "problem_text": "A pollutant concentration is <A> parts per million (ppm). A filter absorbs <B> ppm of the pollutant. What is the remaining concentration?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        49.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120.5,
+                "B": 30.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 90.0
+        },
+        {
+            "id": "p008",
+            "field": "Ethnobotany",
+            "difficulty": "easy",
+            "problem_text": "An indigenous community harvests <A> medicinal plants per week. Over <B> weeks, what is the total harvest?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        12
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45,
+                "B": 8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 360.0
+        },
+        {
+            "id": "p009",
+            "field": "Forensic Accounting",
+            "difficulty": "easy",
+            "problem_text": "An auditor identifies <A> irregular transactions. If <B> of them are later verified as legitimate, how many remain suspicious?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        499
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1200,
+                "B": 350
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 850.0
+        },
+        {
+            "id": "p010",
+            "field": "Geoarchaeology",
+            "difficulty": "easy",
+            "problem_text": "A sediment core is <A> centimeters long. It is divided evenly into <B> distinct stratigraphic layers. What is the thickness of each layer?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150.0,
+                "B": 5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A / B), 4)\nprint(result)",
+            "ground_truth": 30.0
+        },
+        {
+            "id": "p011",
+            "field": "Glaciohydrology",
+            "difficulty": "easy",
+            "problem_text": "A melting glacier produces <A> cubic meters of runoff per day. What is the total volume of runoff after <B> days?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        30
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2500.0,
+                "B": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 25000.0
+        },
+        {
+            "id": "p012",
+            "field": "Histopathology",
+            "difficulty": "easy",
+            "problem_text": "A tissue slide shows <A> healthy cells and <B> necrotic cells. What is the total number of cells observed?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 450,
+                "B": 25
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+            "ground_truth": 475.0
+        },
+        {
+            "id": "p013",
+            "field": "Hydroclimatology",
+            "difficulty": "easy",
+            "problem_text": "The annual rainfall in a basin is <A> mm. If <B> mm is lost to evapotranspiration, what is the effective rainfall available for runoff?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        500.0,
+                        2000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        400.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1200.5,
+                "B": 300.2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 900.3
+        },
+        {
+            "id": "p014",
+            "field": "Immunogenetics",
+            "difficulty": "easy",
+            "problem_text": "A population study tests <A> individuals, identifying <B> individuals carrying a specific HLA allele. How many individuals lack this allele?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        500
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000,
+                "B": 350
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 1650.0
+        },
+        {
+            "id": "p015",
+            "field": "Magnetobiology",
+            "difficulty": "easy",
+            "problem_text": "A migratory bird relies on a geomagnetic field strength of <A> microteslas. An artificial source increases the local field by <B> microteslas. What is the total field strength?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        20.0,
+                        60.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45.5,
+                "B": 5.2
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+            "ground_truth": 50.7
+        },
+        {
+            "id": "p016",
+            "field": "Metallogenomics",
+            "difficulty": "easy",
+            "problem_text": "A microbial strain binds <A> micrograms of heavy metals per cell. For a colony of <B> cells, what is the total metal bound in micrograms?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        0.01,
+                        0.1
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        50000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 0.05,
+                "B": 20000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 1000.0
+        },
+        {
+            "id": "p017",
+            "field": "Neuroendocrinology",
+            "difficulty": "easy",
+            "problem_text": "A specific neural pathway releases <A> picograms of a neuropeptide evenly over <B> distinct synaptic junctions. How many picograms does each junction receive?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250.0,
+                "B": 10
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A / B), 4)\nprint(result)",
+            "ground_truth": 25.0
+        },
+        {
+            "id": "p018",
+            "field": "Paleoceanography",
+            "difficulty": "easy",
+            "problem_text": "A sediment proxy indicates an ancient ocean temperature was <A> degrees Celsius. Modern equivalent waters are <B> degrees Celsius warmer. What is the modern temperature?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        15.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 12.5,
+                "B": 2.3
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A + B), 4)\nprint(result)",
+            "ground_truth": 14.8
+        },
+        {
+            "id": "p019",
+            "field": "Pharmacokinetics",
+            "difficulty": "easy",
+            "problem_text": "A patient receives <A> mg of a drug, and <B> mg is cleared by the kidneys in the first hour. How much drug remains in circulation?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250.0,
+                "B": 35.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 214.5
+        },
+        {
+            "id": "p020",
+            "field": "Phytopathology",
+            "difficulty": "easy",
+            "problem_text": "An orchard contains <A> fruit trees. A fungal infection spreads to <B> trees. How many trees are currently uninfected?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        300
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1200,
+                "B": 150
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 1050.0
+        },
+        {
+            "id": "p021",
+            "field": "Radiobiology",
+            "difficulty": "easy",
+            "problem_text": "A tissue sample is exposed to <A> Gy of radiation per minute. After <B> minutes, what is the total accumulated dose?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        2.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        30
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 0.5,
+                "B": 12
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 6.0
+        },
+        {
+            "id": "p022",
+            "field": "Seismotectonics",
+            "difficulty": "easy",
+            "problem_text": "A tectonic plate shifts <A> mm per year. Over <B> years, what is the total displacement in mm?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 35.5,
+                "B": 20
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 710.0
+        },
+        {
+            "id": "p023",
+            "field": "Speleogenesis",
+            "difficulty": "easy",
+            "problem_text": "A cave system expands by dissolving <A> cubic meters of limestone annually. What volume is dissolved over <B> years?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        5.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2.5,
+                "B": 400
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 1000.0
+        },
+        {
+            "id": "p024",
+            "field": "Taphonomy",
+            "difficulty": "easy",
+            "problem_text": "A fossil assemblage yields <A> skeletal elements. During extraction, <B> elements are irreparably damaged. How many intact elements are successfully recovered?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        200,
+                        1000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 450,
+                "B": 25
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A - B), 4)\nprint(result)",
+            "ground_truth": 425.0
+        },
+        {
+            "id": "p025",
+            "field": "Volcanology",
+            "difficulty": "easy",
+            "problem_text": "A lava flow advances <A> meters in an hour. How far does it travel in <B> hours?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        12.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45.0,
+                "B": 4.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nresult = round(float(A * B), 4)\nprint(result)",
+            "ground_truth": 202.5
+        },
+        {
+            "id": "p026",
+            "field": "Zooarchaeology",
+            "difficulty": "medium",
+            "problem_text": "An excavation yields <A> bone fragments. Researchers identify that each of the <B> species present accounts for an equal number of fragments, minus a total of <C> fragments that are unidentifiable. How many fragments belong to each identified species?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2050,
+                "B": 10,
+                "C": 50
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float((A - C) / B), 4)\nprint(result)",
+            "ground_truth": 200.0
+        },
+        {
+            "id": "p027",
+            "field": "Agrifood Economics",
+            "difficulty": "medium",
+            "problem_text": "A grain supplier sets a base price of $<A> per ton. An export tariff adds a <B> multiplier to this price. However, a local subsidy subtracts $<C> from the final cost. What is the effective price per ton?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        1.5
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200.0,
+                "B": 1.2,
+                "C": 15.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 225.0
+        },
+        {
+            "id": "p028",
+            "field": "Aviation Finance",
+            "difficulty": "medium",
+            "problem_text": "An airline leases <A> aircraft. Each lease costs $<B> monthly. The airline receives a bulk discount of $<C> off the total monthly bill. What is the final monthly lease expense?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        50000.0,
+                        150000.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        10000.0,
+                        50000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10,
+                "B": 100000.0,
+                "C": 25000.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 975000.0
+        },
+        {
+            "id": "p029",
+            "field": "Biogeography",
+            "difficulty": "medium",
+            "problem_text": "An island spans <A> square kilometers. A specific species occupies a fraction <B> of the island. After a conservation effort, an additional <C> square kilometers are restored for the species. What is the total occupied area?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.5
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 0.25,
+                "C": 150.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B + C), 4)\nprint(result)",
+            "ground_truth": 650.0
+        },
+        {
+            "id": "p030",
+            "field": "Ceramic Art History",
+            "difficulty": "medium",
+            "problem_text": "A museum curates <A> ceramic vases. They are displayed across <B> exhibition rooms. If <C> vases are removed from each room for cleaning, how many vases remain on display per room?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        500
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1,
+                        5
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200,
+                "B": 10,
+                "C": 3
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B - C), 4)\nprint(result)",
+            "ground_truth": 17.0
+        },
+        {
+            "id": "p031",
+            "field": "Cognitive Ergonomics",
+            "difficulty": "medium",
+            "problem_text": "An operator handles <A> alerts per hour. A software update reduces the alert volume by a factor of <B>. The operator also handles a fixed <C> background tasks per hour. What is the total cognitive load (tasks + alerts) per hour?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120.0,
+                "B": 2.0,
+                "C": 15.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 75.0
+        },
+        {
+            "id": "p032",
+            "field": "Computational Linguistics",
+            "difficulty": "medium",
+            "problem_text": "A language model parses a dataset of <A> sentences, each containing exactly <B> words. A pre-processing step removes <C> words across the entire dataset. How many words remain?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        30
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20000,
+                "B": 15,
+                "C": 12000
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 288000.0
+        },
+        {
+            "id": "p033",
+            "field": "Dendroclimatology",
+            "difficulty": "medium",
+            "problem_text": "A tree core exhibits a baseline growth of <A> mm per year over <B> years. An anomalous cold spell reduces the total expected growth across the period by <C> mm. What is the net growth?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        5.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 3.5,
+                "B": 100,
+                "C": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 325.0
+        },
+        {
+            "id": "p034",
+            "field": "Evolutionary Ecology",
+            "difficulty": "medium",
+            "problem_text": "A mutation introduces a survival advantage, multiplying a base population of <A> individuals by <B>. However, an environmental stressor claims <C> individuals. What is the final population?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        300
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 1.5,
+                "C": 200
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 1300.0
+        },
+        {
+            "id": "p035",
+            "field": "Functional Morphology",
+            "difficulty": "medium",
+            "problem_text": "A biomechanical lever arm has a base length of <A> cm, providing a mechanical advantage factor of <B>. An evolutionary adaptation extends the effective length by a constant <C> cm. What is the total effective functional length?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20.0,
+                "B": 2.0,
+                "C": 3.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B + C), 4)\nprint(result)",
+            "ground_truth": 43.5
+        },
+        {
+            "id": "p036",
+            "field": "Geospatial Analytics",
+            "difficulty": "medium",
+            "problem_text": "A satellite captures <A> gigabytes of raw data. A compression algorithm reduces this data by a factor of <B>. Adding a metadata overhead of <C> gigabytes, what is the final storage size?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        500.0,
+                        2000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        25.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000.0,
+                "B": 4.0,
+                "C": 12.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 262.5
+        },
+        {
+            "id": "p037",
+            "field": "Helminthology",
+            "difficulty": "medium",
+            "problem_text": "A host animal is infected with <A> parasite larvae. They reproduce, multiplying by <B>. An anthelmintic drug treatment subsequently eliminates <C> parasites. What is the remaining parasite burden?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 3.0,
+                "C": 2500
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 500.0
+        },
+        {
+            "id": "p038",
+            "field": "Ichthyology",
+            "difficulty": "medium",
+            "problem_text": "A fish hatchery maintains a stock of <A> fingerlings. They are distributed equally into <B> rearing ponds. Each pond then receives an additional <C> fingerlings from a wild catch. How many fingerlings are in each pond?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        10000,
+                        50000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        100,
+                        1000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20000,
+                "B": 10,
+                "C": 500
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 2500.0
+        },
+        {
+            "id": "p039",
+            "field": "Kinesiology",
+            "difficulty": "medium",
+            "problem_text": "An athlete produces a baseline force of <A> Newtons. A kinetic brace amplifies this force by a factor of <B>. Due to muscle fatigue, <C> Newtons are subtracted from the amplified output. What is the net applied force?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        200.0,
+                        600.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        1.5
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 400.0,
+                "B": 1.2,
+                "C": 30.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 450.0
+        },
+        {
+            "id": "p040",
+            "field": "Lexicography",
+            "difficulty": "medium",
+            "problem_text": "A dictionary project contains <A> root words. Each root word spawns exactly <B> derivatives. The editorial board decides to remove a total of <C> obsolete terms from the final manuscript. How many entries remain?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        5000,
+                        20000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        6
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        1000,
+                        5000
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000,
+                "B": 3,
+                "C": 2500
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 27500.0
+        },
+        {
+            "id": "p041",
+            "field": "Macroecology",
+            "difficulty": "medium",
+            "problem_text": "A broad geographic region of <A> square kilometers is divided into <B> distinct climatic zones. Researchers map an additional peripheral area of <C> square kilometers to one specific zone. What is the total area mapped for that zone?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100000.0,
+                        500000.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        4,
+                        10
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200000.0,
+                "B": 5,
+                "C": 2500.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 42500.0
+        },
+        {
+            "id": "p042",
+            "field": "Neuropharmacology",
+            "difficulty": "medium",
+            "problem_text": "A drug dosage of <A> mg is reduced by a hepatic metabolism factor of <B>. To maintain efficacy, a secondary booster dose of <C> mg is administered directly to the central nervous system. What is the active concentration?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        25.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120.0,
+                "B": 2.0,
+                "C": 15.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 75.0
+        },
+        {
+            "id": "p043",
+            "field": "Oceanographic Engineering",
+            "difficulty": "medium",
+            "problem_text": "An underwater sensor array spans a length of <A> meters, constructed by linking <B> individual sensor modules end-to-end. A new design subtracts <C> meters from each module to reduce drag. What is the new length of a single module?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 100,
+                "C": 2.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B - C), 4)\nprint(result)",
+            "ground_truth": 17.5
+        },
+        {
+            "id": "p044",
+            "field": "Paleoecology",
+            "difficulty": "medium",
+            "problem_text": "A fossil bed yields <A> herbivore remains. The number of carnivore remains is calculated by dividing the herbivore count by a predator-prey ratio of <B>. An adjacent stratum yields an additional <C> carnivore remains. What is the total number of carnivore remains?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        500,
+                        2000
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        5,
+                        20
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000,
+                "B": 10,
+                "C": 25
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 125.0
+        },
+        {
+            "id": "p045",
+            "field": "Quantitative Finance",
+            "difficulty": "medium",
+            "problem_text": "A portfolio manages a base asset value of $<A>. A high-frequency trading algorithm scales this by a factor of <B>. A transaction and slippage cost of $<C> is then deducted. What is the net asset value?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100000.0,
+                        500000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.01,
+                        1.5
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        10000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 200000.0,
+                "B": 1.1,
+                "C": 5000.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 215000.0
+        },
+        {
+            "id": "p046",
+            "field": "Radiation Physics",
+            "difficulty": "medium",
+            "problem_text": "A radioactive source emits <A> Sieverts of radiation. A protective shield reduces this emission by a factor of <B>. A background radiation level of <C> Sieverts is then added to find the total exposure reading. What is it?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        2.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20.0,
+                "B": 4.0,
+                "C": 1.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 6.5
+        },
+        {
+            "id": "p047",
+            "field": "Systems Biology",
+            "difficulty": "medium",
+            "problem_text": "A metabolic network consists of <A> interacting nodes. A signaling cascade activates a multiplier of <B> parallel pathways. A subsequent regulatory feedback loop disables <C> of these pathways. How many active pathways remain?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        200
+                    ]
+                },
+                "B": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        50
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 100,
+                "B": 3,
+                "C": 45
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 255.0
+        },
+        {
+            "id": "p048",
+            "field": "Tectonic Geomorphology",
+            "difficulty": "medium",
+            "problem_text": "A fault line produces an initial uplift of <A> meters. Subsequent seismic events scale this by a factor of <B>. Over centuries, erosion removes <C> meters of the uplifted material. What is the present elevation?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        20.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10.0,
+                "B": 2.5,
+                "C": 4.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 21.0
+        },
+        {
+            "id": "p049",
+            "field": "Urban Ecology",
+            "difficulty": "medium",
+            "problem_text": "An urban green space hosts <A> bird nests. Following a habitat expansion, the nesting sites increase by a factor of <B>. However, urban noise pollution leads to the abandonment of <C> nests. How many active nests remain?",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        50,
+                        300
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        10,
+                        100
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120,
+                "B": 2.0,
+                "C": 35
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A * B - C), 4)\nprint(result)",
+            "ground_truth": 205.0
+        },
+        {
+            "id": "p050",
+            "field": "Viral Immunology",
+            "difficulty": "medium",
+            "problem_text": "A patient's blood contains <A> viral particles per microliter. A targeted antiviral reduces this concentration by a divisor of <B>. Due to a minor secondary reservoir, <C> particles per microliter leak into the bloodstream. What is the updated viral load?",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10000.0,
+                        50000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "C": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20000.0,
+                "B": 50.0,
+                "C": 150.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nresult = round(float(A / B + C), 4)\nprint(result)",
+            "ground_truth": 550.0
+        },
+        {
+            "id": "p051",
+            "field": "Aeroelasticity",
+            "difficulty": "hard",
+            "problem_text": "Calculate the dynamic flutter pressure acting on an aircraft wing: a freestream velocity scalar <A> is multiplied by an air density parameter <B> raised to a compressibility power <C>. Divide this result by a structural stiffness constant <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 20.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 100.0
+        },
+        {
+            "id": "p052",
+            "field": "Biomechanics",
+            "difficulty": "hard",
+            "problem_text": "Determine the localized cartilage stress in a joint: a peak landing force <A> is divided by the contact surface area <B> raised to the geometric exponent <C>. The quotient is then multiplied by a synovial fluid friction coefficient <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1600.0,
+                "B": 4.0,
+                "C": 2,
+                "D": 1.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 150.0
+        },
+        {
+            "id": "p053",
+            "field": "Celestial Mechanics",
+            "difficulty": "hard",
+            "problem_text": "Calculate an orbital resonance perturbance metric: a planetary mass parameter <A> is multiplied by an orbital semi-major axis <B> raised to the power of a resonance integer <C>. The resulting value is divided by a localized gravitational disruption constant <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        20.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 40.0,
+                "B": 10.0,
+                "C": 2,
+                "D": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 160.0
+        },
+        {
+            "id": "p054",
+            "field": "Developmental Psychology",
+            "difficulty": "hard",
+            "problem_text": "Compute a longitudinal cognitive tracking score: a raw baseline intellect quotient <A> is divided by an age-related maturation variable <B> raised to a developmental stage power <C>. This adjusted base is then multiplied by a standardized environmental enrichment scale <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        500.0,
+                        2000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 800.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 1.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 150.0
+        },
+        {
+            "id": "p055",
+            "field": "Electrophysiology",
+            "difficulty": "hard",
+            "problem_text": "Determine the effective membrane potential threshold: an intracellular ion concentration <A> is multiplied by a channel conductance modifier <B> raised to an activation gating power <C>. The entire value is divided by a basal membrane capacitance <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50.0,
+                "B": 2.0,
+                "C": 2,
+                "D": 5.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 40.0
+        },
+        {
+            "id": "p056",
+            "field": "Fracture Mechanics",
+            "difficulty": "hard",
+            "problem_text": "Calculate the critical stress intensity factor: an applied uniform stress <A> is divided by a microscopic flaw radius <B> raised to a stress concentration power <C>. Multiply this quotient by a material toughness scaling constant <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        20.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 300.0,
+                "B": 2.0,
+                "C": 2,
+                "D": 10.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 750.0
+        },
+        {
+            "id": "p057",
+            "field": "Geophysics",
+            "difficulty": "hard",
+            "problem_text": "Estimate the deep mantle seismic velocity anomaly: a baseline compressional wave speed <A> is multiplied by a localized density fluctuation <B> raised to a high-pressure phase power <C>. Divide the final product by a thermal attenuation index <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        15.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120.0,
+                "B": 1.5,
+                "C": 3,
+                "D": 4.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 90.0
+        },
+        {
+            "id": "p058",
+            "field": "Hydrometallurgy",
+            "difficulty": "hard",
+            "problem_text": "Compute the refined ore extraction efficiency: an initial crushed ore mass <A> is divided by an acidic solvent pH modifier <B> raised to an empirical reaction power <C>. Multiply this extracted fraction by a catalyst acceleration factor <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2500.0,
+                "B": 5.0,
+                "C": 2,
+                "D": 4.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 400.0
+        },
+        {
+            "id": "p059",
+            "field": "Isotope Geochemistry",
+            "difficulty": "hard",
+            "problem_text": "Model the radioactive decay signature for a rock sample: a parent isotope concentration <A> is multiplied by an established decay constant <B> raised to the power of a half-life period <C>. Divide this decaying mass by a naturally occurring background isotopic interference <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        20.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 500.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 10.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 400.0
+        },
+        {
+            "id": "p060",
+            "field": "Macroeconomics",
+            "difficulty": "hard",
+            "problem_text": "Calculate an aggregate national investment index: a baseline governmental expenditure <A> is divided by an inflation dampening factor <B> raised to a cyclical economic power <C>. The quotient is multiplied by an international trade surplus multiplier <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5000.0,
+                        50000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.05,
+                        2.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000.0,
+                "B": 2.0,
+                "C": 2,
+                "D": 3.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 8750.0
+        },
+        {
+            "id": "p061",
+            "field": "Nanomedicine",
+            "difficulty": "hard",
+            "problem_text": "Determine the effective cellular uptake of a therapeutic nanoparticle: an initial injected dose <A> is multiplied by a ligand binding affinity <B> raised to the power of a spatial receptor distribution index <C>. The total uptake is divided by an enzymatic degradation rate <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120.0,
+                "B": 1.5,
+                "C": 2,
+                "D": 3.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 90.0
+        },
+        {
+            "id": "p062",
+            "field": "Optoelectronics",
+            "difficulty": "hard",
+            "problem_text": "Evaluate the luminescent intensity output of a specialized diode: a baseline electrical current <A> is divided by a non-radiative recombination factor <B> raised to a quantum well structural power <C>. This efficiency score is multiplied by a photonic extraction scalar <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        20.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 50.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 16.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 100.0
+        },
+        {
+            "id": "p063",
+            "field": "Paleoclimatology",
+            "difficulty": "hard",
+            "problem_text": "Model a historical global ice volume proxy: a measured benthic isotopic ratio <A> is multiplied by a latitudinal temperature gradient <B> raised to an atmospheric CO2 sensitivity power <C>. Divide the integrated climate signal by a steady continental drift divisor <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        10.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 4.0,
+                "B": 2.5,
+                "C": 2,
+                "D": 1.25
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 20.0
+        },
+        {
+            "id": "p064",
+            "field": "Quantum Optics",
+            "difficulty": "hard",
+            "problem_text": "Compute an entangled photon pair coincidence rate: an initial laser pump power <A> is divided by a crystal phase-matching dispersion factor <B> raised to a spatial walk-off power <C>. The resulting coherent rate is multiplied by a highly efficient detector quantum yield <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.5,
+                        0.99
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 800.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 0.8
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 80.0
+        },
+        {
+            "id": "p065",
+            "field": "Rheology",
+            "difficulty": "hard",
+            "problem_text": "Determine the non-Newtonian fluid apparent viscosity metric: a baseline zero-shear viscosity <A> is multiplied by an applied shear rate <B> raised to a structural breakdown power <C>. Divide the resulting transient viscosity by a thermal thinning factor <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150.0,
+                "B": 3.0,
+                "C": 2,
+                "D": 5.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 270.0
+        },
+        {
+            "id": "p066",
+            "field": "Structural Dynamics",
+            "difficulty": "hard",
+            "problem_text": "Assess an oscillating bridge's harmonic amplification vector: a primary wind excitation force <A> is divided by a resonant frequency mismatch <B> raised to a mode shape power <C>. The calculated force is then multiplied by an intrinsic material damping coefficient <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.9
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 3200.0,
+                "B": 2.0,
+                "C": 4,
+                "D": 0.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 100.0
+        },
+        {
+            "id": "p067",
+            "field": "Thermoelectricity",
+            "difficulty": "hard",
+            "problem_text": "Calculate the optimized Seebeck power generation output: an initial applied temperature gradient <A> is multiplied by an enhanced material figure of merit <B> raised to an electron transport power <C>. Divide the aggregate thermal-electric energy by a parasitic heat conduction divisor <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 40.0,
+                "B": 2.5,
+                "C": 2,
+                "D": 4.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 62.5
+        },
+        {
+            "id": "p068",
+            "field": "Urban Planning",
+            "difficulty": "hard",
+            "problem_text": "Determine a metropolitan transit congestion density score: an overarching city population base <A> is divided by a public transit accessibility factor <B> raised to an urban sprawl power <C>. The quotient is multiplied by a localized traffic bottleneck scalar <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10000.0,
+                        100000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 54000.0,
+                "B": 3.0,
+                "C": 3,
+                "D": 5.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 10000.0
+        },
+        {
+            "id": "p069",
+            "field": "Volcanic Seismology",
+            "difficulty": "hard",
+            "problem_text": "Estimate the harmonic tremor energy release preceding an eruption: a primary subterranean pressure wave amplitude <A> is multiplied by a magma chamber resonance <B> raised to the power of <C>. The destructive potential is divided by a dense crustal attenuation variable <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 10.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 200.0
+        },
+        {
+            "id": "p070",
+            "field": "Wave Hydrodynamics",
+            "difficulty": "hard",
+            "problem_text": "Calculate an intense rogue wave formation probability parameter: a recorded background swell energy <A> is divided by an opposing wind shear friction <B> raised to a chaotic constructive interference power <C>. This baseline is then multiplied by an ocean floor topography multiplier <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        500.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        10.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 2.0,
+                "C": 2,
+                "D": 3.5
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 1750.0
+        },
+        {
+            "id": "p071",
+            "field": "Astroparticle Physics",
+            "difficulty": "hard",
+            "problem_text": "Assess the high-energy cosmic neutrino detection rate: an incoming intergalactic flux <A> is multiplied by an ice-array interaction cross-section <B> raised to a deep scattering power <C>. Divide the expected hit count by an instrumental noise filtering divisor <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 45.0,
+                "B": 3.0,
+                "C": 2,
+                "D": 15.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 27.0
+        },
+        {
+            "id": "p072",
+            "field": "Biophotonics",
+            "difficulty": "hard",
+            "problem_text": "Determine the localized tissue fluorescence absorption depth: a baseline emitted light intensity <A> is divided by a biological scattering factor <B> raised to the power of a tissue depth index <C>. The attenuated light is multiplied by a target fluorophore quantum yield <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.1,
+                        0.99
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 160.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 0.85
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 17.0
+        },
+        {
+            "id": "p073",
+            "field": "Computational Astrophysics",
+            "difficulty": "hard",
+            "problem_text": "Model the supermassive black hole accretion disk luminosity: a staggeringly high infalling matter rate of <A> kg/s is multiplied by a gravitational spin conversion parameter <B> raised to a relativistic power <C>. Divide the total radiating energy by a dust obscuration factor <D>.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000000000,
+                        5000000000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000000000,
+                "B": 2.5,
+                "C": 2,
+                "D": 500.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 25000000.0
+        },
+        {
+            "id": "p074",
+            "field": "Differential Geometry",
+            "difficulty": "hard",
+            "problem_text": "Compute a complex manifold's Gaussian curvature intrinsic scalar: an integrated Riemannian angle defect <A> is divided by a geodesic boundary length <B> raised to the dimensional power <C>. Multiply the outcome by an invariant topological Euler characteristic <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.0,
+                        5.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 54.0,
+                "B": 3.0,
+                "C": 2,
+                "D": 2.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float((A / (B ** C)) * D), 4)\nprint(result)",
+            "ground_truth": 12.0
+        },
+        {
+            "id": "p075",
+            "field": "Epidemic Modeling",
+            "difficulty": "hard",
+            "problem_text": "Calculate the critical herd immunity threshold saturation: a base transmission pool of <A> individuals is multiplied by a high-contact viral reproduction variable <B> raised to the power of <C>. Divide the exponential infection threat by an observed vaccine efficacy block <D>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 16.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nresult = round(float(A * (B ** C) / D), 4)\nprint(result)",
+            "ground_truth": 1000.0
+        },
+        {
+            "id": "p076",
+            "field": "Fluid Dynamics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine the non-linear turbulent drag coefficient for a submerged body: a baseline fluid kinetic energy <A> is multiplied by an unpredictable eddy viscosity variable <B> raised to the power of <C>. Divide this highly chaotic shear stress by a stabilized laminar boundary layer metric <D>, and subtract an anticipated pressure wake recovery constant <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        25.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 10.0,
+                "E": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D - E), 4)\nprint(result)",
+            "ground_truth": 175.0
+        },
+        {
+            "id": "p077",
+            "field": "Geotechnical Engineering",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate an advanced deep foundation bearing capacity limit: a substantial soil cohesive strength <A> is divided by an internal friction angle degradation <B> raised to a saturation depth exponent <C>. The quotient is multiplied by a highly specialized pile reinforcement scalar <D>, and a static bedrock resistive offset <E> is finally added.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5000.0,
+                        25000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000.0,
+                "B": 2.0,
+                "C": 2,
+                "D": 3.5,
+                "E": 500.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D + E), 4)\nprint(result)",
+            "ground_truth": 9250.0
+        },
+        {
+            "id": "p078",
+            "field": "Hydrogeology",
+            "difficulty": "very_hard",
+            "problem_text": "Model the rapid depletion rate of a fossil groundwater aquifer: a massive subterranean water reserve <A> is multiplied by an escalating agricultural extraction multiplier <B> raised to the power of consecutive drought years <C>. Divide this alarming withdrawal rate by a localized semi-permeable recharge divisor <D>, and subtract an artificial injection offset <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10000.0,
+                        50000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        3,
+                        5
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20000.0,
+                "B": 1.5,
+                "C": 3,
+                "D": 20.0,
+                "E": 125.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D - E), 4)\nprint(result)",
+            "ground_truth": 3250.0
+        },
+        {
+            "id": "p079",
+            "field": "Information Theory",
+            "difficulty": "very_hard",
+            "problem_text": "Determine the extreme degradation of channel capacity over a deep space link: an initial uncompressed symbol rate <A> is divided by a cosmic background noise entropy factor <B> raised to a signal attenuation power <C>. The quotient is multiplied by a highly advanced forward error correction scalar <D>, and a standard bit-slip synchronization loss <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50000.0,
+                        200000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 128000.0,
+                "B": 4.0,
+                "C": 3,
+                "D": 2.5,
+                "E": 200.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 4800.0
+        },
+        {
+            "id": "p080",
+            "field": "Mathematical Biology",
+            "difficulty": "very_hard",
+            "problem_text": "Evaluate the complex deterministic spread of an aggressive invasive species: a primary introduced population base <A> is multiplied by an unchecked reproductive fitness rate <B> raised to the power of <C> generations. Divide this explosive biological expansion by an indigenous competition resistance divisor <D>, and add a continual peripheral migration influx <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        10000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        3,
+                        5
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        25.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 4000.0,
+                "B": 2.0,
+                "C": 4,
+                "D": 16.0,
+                "E": 350.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 4350.0
+        },
+        {
+            "id": "p081",
+            "field": "Neuromorphic Engineering",
+            "difficulty": "very_hard",
+            "problem_text": "Compute the overall synaptic updating load in a massively parallel neuromorphic processor: a baseline spiking event volume <A> is divided by an inhibitory suppression ratio <B> raised to a sparse connectivity exponent <C>. The surviving spike count is multiplied by a learning rule processing penalty <D>, and a continuous background leakage current <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10000.0,
+                        100000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 54000.0,
+                "B": 3.0,
+                "C": 3,
+                "D": 2.5,
+                "E": 800.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 4200.0
+        },
+        {
+            "id": "p082",
+            "field": "Orbital Mechanics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine a satellite's compounding semi-major axis decay due to atmospheric drag: an initial orbital altitude parameter <A> is multiplied by an unpredicted solar flux expansion multiplier <B> raised to the power of a ballistic drag coefficient <C>. Divide this enhanced orbital friction by a restorative thruster impulse divisor <D>, and add a micro-meteorite degradation constant <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 600.0,
+                "B": 1.5,
+                "C": 3,
+                "D": 4.5,
+                "E": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 475.0
+        },
+        {
+            "id": "p083",
+            "field": "Photogrammetry",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate an advanced 3D point cloud distortion scalar: a baseline camera sensor resolution <A> is divided by an atmospheric haze scattering index <B> raised to a focal lens distortion power <C>. Multiply this reduced optical clarity by an algorithmic stitching interpolation factor <D>, and subtract an inherent depth-of-field blurring artifact <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5000.0,
+                        25000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 16000.0,
+                "B": 2.0,
+                "C": 4,
+                "D": 3.5,
+                "E": 120.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 3380.0
+        },
+        {
+            "id": "p084",
+            "field": "Quantum Chromodynamics",
+            "difficulty": "very_hard",
+            "problem_text": "Model the non-perturbative string tension in a quark-gluon plasma: a foundational strong coupling constant proxy <A> is multiplied by a thermal fluctuation parameter <B> raised to the power of a gluon self-interaction dimension <C>. Divide this dense baryonic energy by a spatial lattice spacing constraint <D>, and add an absolute zero vacuum state energy <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        250.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 120.0,
+                "B": 2.5,
+                "C": 2,
+                "D": 5.0,
+                "E": 15.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 165.0
+        },
+        {
+            "id": "p085",
+            "field": "Relativistic Astrophysics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine the extreme gravitational time dilation offset near a neutron star: a designated high-velocity proper time <A> is divided by a general relativity curvature deformation <B> raised to an intense gravitational power <C>. The quotient is multiplied by an orbiting satellite's clock frequency multiplier <D>, and a minor kinetic time drift <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        10.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 3200.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 4.5,
+                "E": 50.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 1750.0
+        },
+        {
+            "id": "p086",
+            "field": "Stochastic Processes",
+            "difficulty": "very_hard",
+            "problem_text": "Evaluate a complex jump-diffusion continuous trajectory variance: an initial Brownian motion amplitude <A> is multiplied by a highly volatile Poisson jump intensity <B> raised to the power of <C> simulated intervals. Divide this unpredictable deviation by a continuous mean-reversion drift <D>, and add a fixed initial state uncertainty <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        3.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        20.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 150.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 6.0,
+                "E": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 225.0
+        },
+        {
+            "id": "p087",
+            "field": "Topology",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate an intricate high-dimensional Betti number transformation score: an underlying simplex vertex set <A> is divided by an intersecting manifold folding parameter <B> raised to a homological mapping power <C>. The quotient is multiplied by an orientable surface invariant <D>, and an isolated boundary defect <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        10000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        8.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 4050.0,
+                "B": 3.0,
+                "C": 4,
+                "D": 5.5,
+                "E": 45.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 230.0
+        },
+        {
+            "id": "p088",
+            "field": "Vehicular Dynamics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine the extreme cornering traction load loss on a high-speed track: a base centrifugal vehicle weight <A> is multiplied by an asphalt slip coefficient <B> raised to the power of an aggressive steering angle <C>. Divide this highly destructive lateral force by an active aerodynamic downforce divisor <D>, and subtract a specialized tire compound grip bonus <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        2.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        3
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        20.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 1.5,
+                "C": 3,
+                "D": 4.5,
+                "E": 100.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D - E), 4)\nprint(result)",
+            "ground_truth": 1400.0
+        },
+        {
+            "id": "p089",
+            "field": "Wildlife Management",
+            "difficulty": "very_hard",
+            "problem_text": "Model the severe population crash of a keystone species facing multiple threats: an initial protected population count <A> is divided by an illegal poaching intensity <B> raised to the power of an escalating habitat loss index <C>. Multiply the remaining fragile population by an intensive breeding program scalar <D>, and add a newly discovered isolated herd of <E> individuals.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5000.0,
+                        25000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        3.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        20.0,
+                        150.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 16000.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 1.5,
+                "E": 125.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D + E), 4)\nprint(result)",
+            "ground_truth": 3125.0
+        },
+        {
+            "id": "p090",
+            "field": "Xenotransplantation",
+            "difficulty": "very_hard",
+            "problem_text": "Assess the aggressive biological rejection cascade in a transgenic organ model: an initial immune leukocyte count <A> is multiplied by a highly specific xenogeneic antigen mismatch <B> raised to the power of <C> critical response days. Divide this fierce immunogenic attack by a potent pharmacological suppression divisor <D>, and subtract an innate tissue tolerance threshold <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        8000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        3.5
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        25.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 2.5,
+                "C": 2,
+                "D": 10.0,
+                "E": 150.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D - E), 4)\nprint(result)",
+            "ground_truth": 1100.0
+        },
+        {
+            "id": "p091",
+            "field": "Aerothermodynamics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine the critical stagnation point heat flux during a hypersonic planetary entry: a massive kinetic atmospheric energy <A> is divided by a boundary layer shielding coefficient <B> raised to the aerodynamic slip power <C>. The quotient is multiplied by a surface catalytic recombination scalar <D>, and an ambient upper-atmosphere radiation cooling <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        50000.0,
+                        200000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        6.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 108000.0,
+                "B": 3.0,
+                "C": 3,
+                "D": 2.5,
+                "E": 500.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 9500.0
+        },
+        {
+            "id": "p092",
+            "field": "Biochemical Kinetics",
+            "difficulty": "very_hard",
+            "problem_text": "Compute an accelerated allosteric enzyme reaction maximum velocity: an abundant substrate concentration <A> is multiplied by a highly potent activator binding affinity <B> raised to the power of a cooperativity index <C>. Divide this peak metabolic throughput by an induced competitive inhibitor divisor <D>, and add a constant background uncatalyzed reaction rate <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.2,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 400.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 8.0,
+                "E": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 425.0
+        },
+        {
+            "id": "p093",
+            "field": "Cryptographic Economics",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate the compounded decentralized finance (DeFi) flash loan penalty: an initial massive leveraged capital pool <A> is divided by an algorithmic slippage mitigation parameter <B> raised to an extreme market volatility power <C>. The remaining vulnerable capital is multiplied by an automated liquidation fee <D>, and a standard blockchain gas execution cost <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000000.0,
+                        5000000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        0.05,
+                        0.2
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        500.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2500000.0,
+                "B": 5.0,
+                "C": 3,
+                "D": 0.1,
+                "E": 250.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 1750.0
+        },
+        {
+            "id": "p094",
+            "field": "Demographic Economics",
+            "difficulty": "very_hard",
+            "problem_text": "Evaluate the cascading strain on a national pension fund: an enormous working-age tax revenue base <A> is multiplied by an unadjusted birth rate decline <B> raised to the power of an aging demographic shift <C>. Divide this shrinking financial reservoir by an extended life expectancy payout divisor <D>, and add a small emergency sovereign wealth supplement <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        10000.0,
+                        50000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        0.8,
+                        0.99
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        500.0,
+                        2000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 20000.0,
+                "B": 0.9,
+                "C": 2,
+                "D": 4.0,
+                "E": 1500.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 5550.0
+        },
+        {
+            "id": "p095",
+            "field": "Environmental Epigenetics",
+            "difficulty": "very_hard",
+            "problem_text": "Model an intergenerational toxicological expression index: an initial robust genetic silencing baseline <A> is divided by an accumulating heavy metal exposure toxin <B> raised to the power of <C> affected generations. Multiply this weakened epigenetic barrier by an underlying cellular vulnerability scalar <D>, and subtract an independent DNA repair baseline <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5000.0,
+                        20000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        8.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 16000.0,
+                "B": 2.0,
+                "C": 4,
+                "D": 3.5,
+                "E": 55.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 3445.0
+        },
+        {
+            "id": "p096",
+            "field": "Galactic Dynamics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine the extreme stellar dispersion velocity in an active galactic nucleus: an incomprehensibly vast supermassive black hole mass <A> is divided by a dense galactic core radius <B> raised to an interaction power <C>. This gravitational well parameter is then multiplied by a localized dark matter friction multiplier <D>, and a consistent background star radiation pressure <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000000000000,
+                        5000000000000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        5.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        10000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 1000000000000,
+                "B": 4.0,
+                "C": 3,
+                "D": 2.5,
+                "E": 5000.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 39062495000.0
+        },
+        {
+            "id": "p097",
+            "field": "High-Performance Computing",
+            "difficulty": "very_hard",
+            "problem_text": "Compute a massively parallel job execution time deficit: a monumental database operation of <A> floating point operations is divided by an individual node throughput <B> raised to the power of an I/O bottleneck exponent <C>. The quotient is multiplied by an inefficient algorithmic overhead <D>, and a scheduled hardware maintenance window loss <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "int",
+                    "range": [
+                        1000000000,
+                        5000000000
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        2.0,
+                        10.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        100.0,
+                        1000.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 3200000000,
+                "B": 4.0,
+                "C": 3,
+                "D": 2.5,
+                "E": 500.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 124999500.0
+        },
+        {
+            "id": "p098",
+            "field": "Molecular Dynamics",
+            "difficulty": "very_hard",
+            "problem_text": "Evaluate the cumulative energy required for a massive simulated macromolecular unfolding sequence: a large base conformational energy <A> is multiplied by an intense solvent interaction force <B> raised to the power of a highly chaotic thermal fluctuation <C>. Divide this astronomical molecular stress by a rigid disulfide bond dampener <D>, and add a static quantum vibrational energy <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        1000.0,
+                        5000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        50.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        5.0,
+                        50.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 2000.0,
+                "B": 3.0,
+                "C": 3,
+                "D": 15.0,
+                "E": 25.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D + E), 4)\nprint(result)",
+            "ground_truth": 3625.0
+        },
+        {
+            "id": "p099",
+            "field": "Planetary Geophysics",
+            "difficulty": "very_hard",
+            "problem_text": "Determine an intense mantle plume eruptive pressure displacement: an extreme basal magma chamber volume <A> is multiplied by a highly volatile volatile gas expansion <B> raised to the power of <C>. Divide this catastrophic pressure spike by a dense overlying lithosphere compression divisor <D>, and subtract an anticipated localized fault slippage relief <E>.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        5000.0,
+                        20000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        4.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        50.0,
+                        200.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 10000.0,
+                "B": 2.0,
+                "C": 4,
+                "D": 25.0,
+                "E": 120.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A * (B ** C)) / D - E), 4)\nprint(result)",
+            "ground_truth": 6280.0
+        },
+        {
+            "id": "p100",
+            "field": "Synthetic Genomics",
+            "difficulty": "very_hard",
+            "problem_text": "Calculate the predicted fidelity of an unprecedented artificial chromosome synthesis: an initial massively scaled oligonucleotide assembly size <A> is divided by a biochemical synthesis error rate <B> raised to a recursive proofreading depth <C>. The quotient is multiplied by a sophisticated CRISPR correction multiplier <D>, and a known spontaneous base deletion background <E> is subtracted.",
+            "variables": {
+                "A": {
+                    "type": "float",
+                    "range": [
+                        100000.0,
+                        500000.0
+                    ]
+                },
+                "B": {
+                    "type": "float",
+                    "range": [
+                        1.5,
+                        3.0
+                    ]
+                },
+                "C": {
+                    "type": "int",
+                    "range": [
+                        2,
+                        4
+                    ]
+                },
+                "D": {
+                    "type": "float",
+                    "range": [
+                        1.1,
+                        5.0
+                    ]
+                },
+                "E": {
+                    "type": "float",
+                    "range": [
+                        10.0,
+                        100.0
+                    ]
+                }
+            },
+            "instantiated_values": {
+                "A": 250000.0,
+                "B": 2.0,
+                "C": 3,
+                "D": 1.6,
+                "E": 45.0
+            },
+            "python_solution_code": "A = <A>\nB = <B>\nC = <C>\nD = <D>\nE = <E>\nresult = round(float((A / (B ** C)) * D - E), 4)\nprint(result)",
+            "ground_truth": 49955.0
+        }
+    ]
+}
